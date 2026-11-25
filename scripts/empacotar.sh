@@ -18,10 +18,10 @@ echo ">> Empacotando $NOME ..."
 zip -r -q "$SAIDA" . \
   -x "node_modules/*" \
   -x ".git/*" \
-  -x "dist/*" \
   -x "*.zip" \
   -x "scripts/.cache/*" \
   -x "tests/capturas/*" \
+  -x "tests/__pycache__/*" \
   -x ".env" -x ".env.local" -x ".env.*.local" \
   -x "**/__pycache__/*" \
   -x "**/*.pyc"
