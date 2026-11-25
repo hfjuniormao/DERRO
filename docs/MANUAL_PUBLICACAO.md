@@ -3,6 +3,21 @@
 O projeto é 100% estático no frontend: `npm run build` gera `dist/`, que pode
 ser publicado em **Vercel**, **GitHub Pages** ou qualquer servidor de arquivos.
 
+### Publicação atual
+
+| Ambiente | Endereço | Como foi publicado |
+| --- | --- | --- |
+| GitHub (privado) | `https://github.com/hfjuniormao/central-infra-ro` | `git push` com PAT de escopo `repo` |
+| Vercel (produção) | `https://mapa-obras-ro.vercel.app` | `scripts/publicar_vercel_api.py` (API REST, `dist/` enviado pronto) |
+
+Validação executada contra a URL publicada:
+`python3 tests/smoke_test.py https://mapa-obras-ro.vercel.app` → `RESULTADO: OK`
+(20/20 rotas, mapa com tiles, filtros, ficha de feição e layout mobile).
+
+> Ver `docs/LIMITACOES.md`, seção 10, para o que ainda depende de ação manual
+> (push dos workflows de CI com PAT de escopo `workflow` e vínculo do GitHub
+> App da Vercel com o repositório).
+
 ## 1. GitHub
 
 ### Repositório já existente (privado)
