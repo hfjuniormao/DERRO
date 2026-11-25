@@ -13,6 +13,26 @@ git branch -M main
 git push -u origin main
 ```
 
+Ou, com o token do GitHub (o script usa a URL efemera e **não** grava o
+token no remote nem no repositório):
+
+```bash
+bash scripts/publicar_github.sh <GITHUB_TOKEN> https://github.com/<ORG>/<REPO>.git
+```
+
+> O `GITHUB_TOKEN` é um *Personal Access Token* com escopo `repo`
+> (`https://github.com/settings/tokens`). Nunca o grave no `.git/config`
+> versionado nem em arquivo do repositório.
+
+### Fluxo completo (GitHub + Vercel + validação)
+
+```bash
+bash scripts/publicar_tudo.sh <GITHUB_TOKEN> <VERCEL_TOKEN>
+```
+
+O script executa lint, testes, push, build, deploy em produção e o smoke test
+contra a URL publicada — falhando se qualquer etapa não passar.
+
 ### Repositório novo
 
 ```bash
