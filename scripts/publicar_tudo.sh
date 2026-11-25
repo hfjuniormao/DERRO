@@ -42,11 +42,11 @@ echo
 echo "=============================================================="
 echo " 4/5  Vercel — deploy em producao"
 echo "=============================================================="
+# A CLI le o token do ambiente (VERCEL_TOKEN) — ele nao aparece na linha de comando.
 export VERCEL_TOKEN
 # Associa/cria o projeto (idempotente) e publica.
-vercel link --yes --token "$VERCEL_TOKEN" --project "$PROJETO_VERCEL" 2>/dev/null \
-  || vercel link --yes --token "$VERCEL_TOKEN"
-vercel deploy --prod --yes --token "$VERCEL_TOKEN" | tee /tmp/vercel-deploy.log
+vercel link --yes --project "$PROJETO_VERCEL" 2>/dev/null || vercel link --yes
+vercel deploy --prod --yes | tee /tmp/vercel-deploy.log
 
 URL_PUBLICA="$(grep -oE 'https://[a-zA-Z0-9.-]+\.vercel\.app' /tmp/vercel-deploy.log | head -1 || true)"
 if [ -z "$URL_PUBLICA" ]; then
