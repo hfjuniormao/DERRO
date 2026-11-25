@@ -163,6 +163,13 @@ Detalhes em `docs/MANUAL_CONFIGURACAO.md`.
 - **GitHub Pages** — build com `base: "./"` já configurado
 - **Backend** — `backend/` com docker-compose para PostGIS
 
+Publicação atual:
+
+| Ambiente | Endereço |
+| --- | --- |
+| GitHub (repositório privado) | `https://github.com/hfjuniormao/central-infra-ro` |
+| Vercel (produção) | `https://mapa-obras-ro.vercel.app` |
+
 Instruções passo a passo em `docs/MANUAL_PUBLICACAO.md`.
 
 ---
