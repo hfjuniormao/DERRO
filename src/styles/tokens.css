@@ -1,0 +1,122 @@
+/* ==========================================================================
+   CENTRAL INFRA RO 360 — Tokens de design
+   Paleta institucional: branco predominante, verde institucional, azul
+   escuro, tons neutros e amarelo para alertas e destaques estrategicos.
+   Tokens alinhados ao Calcite Design System (modo claro) para integracao.
+   ========================================================================== */
+
+:root {
+  /* --- Cores institucionais --- */
+  --verde-institucional: #0b6e4f;
+  --verde-institucional-escuro: #08543d;
+  --verde-institucional-claro: #e8f3ee;
+  --verde-acento: #1f8a70;
+
+  --azul-escuro: #0b2545;
+  --azul-medio: #12355b;
+  --azul-claro: #2e7daf;
+  --azul-neutro: #eaf1f7;
+
+  --amarelo-alerta: #c9a227;
+  --amarelo-alerta-claro: #fdf6e0;
+  --laranja-atencao: #d97a1f;
+  --vermelho-critico: #b23a48;
+  --vermelho-claro: #fbeaec;
+
+  /* --- Neutros --- */
+  --branco: #ffffff;
+  --cinza-50: #f7f9fa;
+  --cinza-100: #eef1f4;
+  --cinza-200: #dde3e8;
+  --cinza-300: #c6cfd6;
+  --cinza-400: #9aa7b2;
+  --cinza-500: #6b7a88;
+  --cinza-600: #4d5a66;
+  --cinza-700: #33404c;
+  --cinza-800: #1f2a35;
+  --preto: #12181f;
+
+  /* --- Semantica --- */
+  --cor-fundo: var(--branco);
+  --cor-superficie: var(--branco);
+  --cor-superficie-alternativa: var(--cinza-50);
+  --cor-borda: var(--cinza-200);
+  --cor-borda-forte: var(--cinza-300);
+  --cor-texto: var(--cinza-800);
+  --cor-texto-suave: var(--cinza-600);
+  --cor-texto-fraco: var(--cinza-500);
+  --cor-link: var(--verde-institucional);
+  --cor-link-hover: var(--verde-institucional-escuro);
+  --cor-foco: #1f8a70;
+
+  /* --- Tipografia --- */
+  --fonte-base: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --fonte-numerica: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --fonte-titulo: var(--fonte-base);
+
+  --tamanho-xxs: 0.6875rem;
+  --tamanho-xs: 0.75rem;
+  --tamanho-sm: 0.8125rem;
+  --tamanho-base: 0.9375rem;
+  --tamanho-md: 1.0625rem;
+  --tamanho-lg: 1.25rem;
+  --tamanho-xl: 1.5rem;
+  --tamanho-2xl: 1.875rem;
+  --tamanho-3xl: 2.375rem;
+
+  --peso-normal: 400;
+  --peso-medio: 500;
+  --peso-semibold: 600;
+  --peso-bold: 700;
+
+  --altura-linha: 1.55;
+  --altura-linha-curta: 1.35;
+
+  /* --- Espacamento (escala de 4px) --- */
+  --espaco-1: 0.25rem;
+  --espaco-2: 0.5rem;
+  --espaco-3: 0.75rem;
+  --espaco-4: 1rem;
+  --espaco-5: 1.25rem;
+  --espaco-6: 1.5rem;
+  --espaco-8: 2rem;
+  --espaco-10: 2.5rem;
+  --espaco-12: 3rem;
+  --espaco-16: 4rem;
+
+  /* --- Raio e sombra --- */
+  --raio-sm: 4px;
+  --raio-md: 8px;
+  --raio-lg: 14px;
+  --raio-pill: 999px;
+  --sombra-1: 0 1px 2px rgba(18, 24, 31, 0.06), 0 1px 3px rgba(18, 24, 31, 0.08);
+  --sombra-2: 0 4px 12px rgba(18, 24, 31, 0.08), 0 2px 4px rgba(18, 24, 31, 0.06);
+  --sombra-3: 0 12px 32px rgba(11, 37, 69, 0.16);
+  --sombra-foco: 0 0 0 3px rgba(31, 138, 112, 0.35);
+
+  /* --- Estrutura --- */
+  --largura-maxima: 1440px;
+  --altura-cabecalho: 132px;
+  --painel-lateral: 360px;
+
+  /* --- Movimento --- */
+  --transicao-rapida: 120ms cubic-bezier(0.2, 0, 0.2, 1);
+  --transicao: 220ms cubic-bezier(0.2, 0, 0.2, 1);
+
+  --z-header: 40;
+  --z-painel: 50;
+  --z-modal: 80;
+  --z-toast: 90;
+  --z-carregando: 100;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-tema="auto"] {
+    --cor-fundo: #0e151c;
+    --cor-superficie: #14202b;
+    --cor-superficie-alternativa: #182633;
+    --cor-borda: #24333f;
+    --cor-texto: #e8edf2;
+    --cor-texto-suave: #b6c2cd;
+  }
+}

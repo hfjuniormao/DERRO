@@ -1,0 +1,364 @@
+/* ==========================================================================
+   CENTRAL INFRA RO 360 — Interface cartografica
+   ========================================================================== */
+
+.mapa-interface {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: var(--espaco-4);
+  align-items: stretch;
+  min-height: 620px;
+}
+
+.mapa-painel {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 760px;
+}
+
+.mapa-painel__topo {
+  padding: var(--espaco-4);
+  border-bottom: 1px solid var(--cor-borda);
+}
+.mapa-painel__titulo {
+  font-size: var(--tamanho-md);
+  margin: 0 0 var(--espaco-3);
+}
+.mapa-abas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: var(--espaco-1);
+}
+.mapa-abas__botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  flex: 1;
+  padding: var(--espaco-2) var(--espaco-1);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  font-size: var(--tamanho-xxs);
+  color: var(--cor-texto-suave);
+}
+.mapa-abas__botao svg {
+  color: var(--cor-texto-fraco);
+}
+.mapa-abas__botao[aria-selected="true"] {
+  background: var(--verde-institucional-claro);
+  border-color: var(--verde-institucional);
+  color: var(--verde-institucional-escuro);
+  font-weight: var(--peso-semibold);
+}
+.mapa-abas__botao[aria-selected="true"] svg {
+  color: var(--verde-institucional);
+}
+.mapa-painel__corpo {
+  padding: var(--espaco-4);
+  overflow-y: auto;
+  flex: 1;
+}
+.mapa-painel__vazio,
+.mapa-painel__nota {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-fraco);
+}
+.mapa-painel__nota {
+  margin-top: var(--espaco-4);
+  padding-top: var(--espaco-3);
+  border-top: 1px dashed var(--cor-borda);
+  line-height: 1.45;
+}
+
+.grupo-camadas {
+  margin-bottom: var(--espaco-4);
+}
+.grupo-camadas__titulo {
+  font-size: var(--tamanho-xxs);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cor-texto-fraco);
+  margin: 0 0 var(--espaco-2);
+}
+.grupo-camadas__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--espaco-1);
+}
+.camada-item {
+  display: block;
+}
+.camada-item__rotulo {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  font-size: var(--tamanho-sm);
+  padding: var(--espaco-1) var(--espaco-2);
+  border-radius: var(--raio-sm);
+  cursor: pointer;
+}
+.camada-item__rotulo:hover {
+  background: var(--cinza-50);
+}
+.camada-item__nome {
+  flex: 1;
+}
+
+.legenda-bloco {
+  margin-bottom: var(--espaco-4);
+}
+.legenda-bloco__titulo {
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cor-texto-suave);
+  margin-bottom: var(--espaco-2);
+}
+.legenda-bloco__vazio {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-fraco);
+  font-style: italic;
+  margin: 0;
+}
+.legenda-item {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  font-size: var(--tamanho-xs);
+  padding: 2px 0;
+}
+.legenda-item__rotulo {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.legenda-item__simbolo {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex: none;
+}
+.legenda-item__simbolo--ponto {
+  border-radius: 50%;
+}
+.legenda-item__simbolo--linha {
+  height: 4px;
+  width: 20px;
+  border-radius: 2px;
+}
+.legenda-item__simbolo--poligono {
+  border-radius: 2px;
+  opacity: 0.75;
+}
+
+.lista-ferramentas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--espaco-2);
+}
+.ferramenta {
+  width: 100%;
+  display: flex;
+  gap: var(--espaco-3);
+  align-items: flex-start;
+  text-align: left;
+  background: var(--branco);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  padding: var(--espaco-3);
+  cursor: pointer;
+}
+.ferramenta:hover {
+  border-color: var(--verde-institutional);
+  background: var(--verde-institucional-claro);
+}
+.ferramenta__icone {
+  color: var(--verde-institucional);
+  flex: none;
+}
+.ferramenta strong {
+  display: block;
+  font-size: var(--tamanho-sm);
+}
+.ferramenta small {
+  display: block;
+  font-size: var(--tamanho-xxs);
+  color: var(--cor-texto-fraco);
+}
+
+.mapa-principal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+  min-width: 0;
+}
+.mapa-area {
+  position: relative;
+  /* Altura DEFINITIVA: sem ela o canvas do ArcGIS dimensiona o proprio
+     container (altura auto) e a interface cresce a cada resize. */
+  height: 520px;
+  min-height: 520px;
+  flex: none;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  overflow: hidden;
+  box-shadow: var(--sombra-1);
+  background: var(--cinza-100);
+}
+.mapa-area .esri-view {
+  height: 100%;
+}
+
+.mapa-ferramentas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-2);
+}
+.mapa-ferramentas__botao {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--raio-md);
+  border: 1px solid var(--cor-borda);
+  background: var(--branco);
+  color: var(--azul-escuro);
+  cursor: pointer;
+  box-shadow: var(--sombra-1);
+}
+.mapa-ferramentas__botao:hover {
+  border-color: var(--verde-institucional);
+  color: var(--verde-institucional);
+}
+
+.mapa-info {
+  background: var(--branco);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-2);
+  padding: var(--espaco-4);
+  max-height: 300px;
+  overflow: auto;
+}
+.mapa-info__cabecalho {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--espaco-3);
+  margin-bottom: var(--espaco-2);
+}
+.mapa-info__cabecalho h3 {
+  margin: 0;
+  font-size: var(--tamanho-base);
+}
+.mapa-info__corpo {
+  max-height: 190px;
+  overflow: auto;
+}
+
+/* --------------------------------------------------------------- home */
+.banner {
+  position: relative;
+  border-radius: var(--raio-lg);
+  overflow: hidden;
+  min-height: 380px;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  background:
+    linear-gradient(180deg, rgba(11, 37, 69, 0.25) 0%, rgba(11, 37, 69, 0.85) 78%),
+    url("https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/8/92/140")
+      center/cover no-repeat;
+  box-shadow: var(--sombra-3);
+}
+.banner__conteudo {
+  padding: var(--espaco-8) var(--espaco-6);
+  max-width: 820px;
+}
+.banner__titulo {
+  font-size: var(--tamanho-3xl);
+  color: #fff;
+  margin: 0 0 var(--espaco-3);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+.banner__texto {
+  font-size: var(--tamanho-md);
+  color: #e4edf4;
+  margin: 0;
+  max-width: 68ch;
+}
+.banner__creditos {
+  position: absolute;
+  right: var(--espaco-3);
+  bottom: var(--espaco-2);
+  font-size: var(--tamanho-xxs);
+  color: rgba(255, 255, 255, 0.82);
+}
+.banner__acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-3);
+  margin-top: var(--espaco-5);
+}
+
+.secao {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+.secao__cabecalho {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--espaco-3);
+  border-bottom: 2px solid var(--verde-institucional);
+  padding-bottom: var(--espaco-2);
+}
+.secao__titulo {
+  margin: 0;
+  font-size: var(--tamanho-lg);
+}
+.secao__link {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+}
+
+@media (max-width: 1080px) {
+  .mapa-interface {
+    grid-template-columns: 1fr;
+  }
+  .mapa-painel {
+    max-height: 340px;
+  }
+  .mapa-area {
+    height: 420px;
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 640px) {
+  .banner {
+    min-height: 300px;
+  }
+  .banner__conteudo {
+    padding: var(--espaco-5) var(--espaco-4);
+  }
+  .banner__titulo {
+    font-size: var(--tamanho-2xl);
+  }
+}

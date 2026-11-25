@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Espaço reservado para o logotipo do Governo de Rondônia">
+  <rect width="64" height="64" rx="10" fill="#0B2545" />
+  <rect x="8" y="8" width="48" height="16" fill="#0B6E4F" />
+  <rect x="8" y="30" width="20" height="26" fill="#FFFFFF" />
+  <rect x="34" y="30" width="22" height="12" fill="#C9A227" />
+  <rect x="34" y="46" width="22" height="10" fill="#FFFFFF" />
+  <text x="32" y="21" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">RO</text>
+</svg>

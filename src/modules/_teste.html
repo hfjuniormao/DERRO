@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Harness de teste — módulos CENTRAL INFRA RO</title>
+  </head>
+  <body>
+    <div id="alvo"></div>
+    <script type="module">
+      import { carregarDados, dados } from "../services/data.js";
+      import { store } from "../services/state.js";
+      import * as logistica from "./logistica.js";
+      import * as convenios from "./convenios.js";
+      import * as maquinas from "./maquinas.js";
+      import * as fiscalizacao from "./fiscalizacao.js";
+      import * as meioambiente from "./meioambiente.js";
+      import * as planejamento from "./planejamento.js";
+      import * as geoai from "./geoai.js";
+      import * as assistente from "./assistente.js";
+      import * as dadosAbertos from "./dados-abertos.js";
+      import * as admin from "./admin.js";
+      import * as documentacao from "./documentacao.js";
+
+      const MODULOS = {
+        logistica,
+        convenios,
+        maquinas,
+        fiscalizacao,
+        meioambiente,
+        planejamento,
+        geoai,
+        assistente,
+        "dados-abertos": dadosAbertos,
+        admin,
+        documentacao,
+      };
+
+      const resultado = { erros: [], avisos: [], modulos: {} };
+      window.__resultado = resultado;
+
+      const alvo = document.getElementById("alvo");
+
+      async function testar() {
+        const carregamento = await carregarDados();
+        store.definir({ dadosCarregados: true });
+        resultado.dados = {
+          estado: carregamento.estado,
+          falhas: carregamento.relatorio.falhas,
+          obras: dados.obras.length,
+        };
+
+        for (const [nome, modulo] of Object.entries(MODULOS)) {
+          const inicio = performance.now();
+          try {
+            const container = document.createElement("div");
+            alvo.append(container);
+            const controle = await modulo.montar(container, {
+              parametros: {},
+              rota: nome,
+              navegar: (id, parametros) => {
+                resultado.avisos.push(`${nome}: navegar(${id})`);
+              },
+            });
+            await new Promise((r) => setTimeout(r, 400));
+            const textos = container.innerText || "";
+            resultado.modulos[nome] = {
+              ok: true,
+              ms: Math.round(performance.now() - inicio),
+              caracteres: textos.length,
+              amostra: textos.slice(0, 140).replace(/\s+/g, " "),
+            };
+            if (controle?.destruir) await controle.destruir();
+            container.remove();
+          } catch (erro) {
+            resultado.modulos[nome] = {
+              ok: false,
+              erro: String(erro && erro.stack ? erro.stack : erro),
+            };
+          }
+        }
+        resultado.concluido = true;
+      }
+
+      window.addEventListener("error", (ev) => resultado.erros.push(`window.onerror: ${ev.message}`));
+      window.addEventListener("unhandledrejection", (ev) =>
+        resultado.erros.push(
+          `unhandledrejection: ${String(ev.reason && ev.reason.stack ? ev.reason.stack : ev.reason)}`
+        )
+      );
+
+      testar().catch((erro) => {
+        resultado.erros.push(`fatal: ${String(erro && erro.stack ? erro.stack : erro)}`);
+        resultado.concluido = true;
+      });
+    </script>
+  </body>
+</html>

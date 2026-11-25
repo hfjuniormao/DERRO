@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Interações — módulos CENTRAL INFRA RO</title>
+    <link rel="stylesheet" href="../styles/tokens.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link rel="stylesheet" href="../styles/map.css" />
+  </head>
+  <body>
+    <main id="conteudo" class="conteudo"></main>
+    <script type="module">
+      import { carregarDados } from "../services/data.js";
+      import { definirSessao } from "../auth.js";
+
+      const MODULOS = {
+        logistica: () => import("./logistica.js"),
+        convenios: () => import("./convenios.js"),
+        maquinas: () => import("./maquinas.js"),
+        fiscalizacao: () => import("./fiscalizacao.js"),
+        meioambiente: () => import("./meioambiente.js"),
+        planejamento: () => import("./planejamento.js"),
+        geoai: () => import("./geoai.js"),
+        assistente: () => import("./assistente.js"),
+        "dados-abertos": () => import("./dados-abertos.js"),
+        admin: () => import("./admin.js"),
+        documentacao: () => import("./documentacao.js"),
+      };
+
+      await carregarDados();
+
+      const nome = new URLSearchParams(location.search).get("modulo") || "logistica";
+      const perfil = new URLSearchParams(location.search).get("perfil");
+      if (perfil) definirSessao({ nome: `Usuario ${perfil}`, perfil });
+
+      const modulo = await MODULOS[nome]();
+      const container = document.getElementById("conteudo");
+      window.__controle = await modulo.montar(container, {
+        parametros: {},
+        rota: nome,
+        navegar: (id, parametros) => {
+          window.__navegou = { id, parametros };
+        },
+      });
+      window.__pronto = true;
+    </script>
+  </body>
+</html>

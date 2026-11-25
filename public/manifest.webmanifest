@@ -1,0 +1,39 @@
+{
+  "name": "CENTRAL INFRA RO 360",
+  "short_name": "Central INFRA RO",
+  "description": "Plataforma de Inteligência Geográfica de Infraestrutura e Logística do Estado de Rondônia.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0B2545",
+  "categories": ["government", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./assets/brasao-ro.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Geoportal", "url": "./index.html#/mapa" },
+    { "name": "Painel executivo", "url": "./index.html#/painel" },
+    { "name": "InfraAI RO", "url": "./index.html#/assistente" }
+  ]
+}

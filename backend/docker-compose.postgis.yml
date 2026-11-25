@@ -1,0 +1,44 @@
+# Sobe PostgreSQL 16 + PostGIS 3.4 para o backend de produção da Central INFRA RO 360.
+# Uso: docker compose -f backend/docker-compose.postgis.yml up -d
+services:
+  postgis:
+    image: postgis/postgis:16-3.4
+    container_name: central-infra-ro-postgis
+    environment:
+      POSTGRES_DB: central_infra_ro
+      POSTGRES_USER: central_infra
+      POSTGRES_PASSWORD: central_infra
+    ports:
+      - "5433:5432"
+    volumes:
+      - dados_postgis:/var/lib/postgresql/data
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U central_infra -d central_infra_ro"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    image: python:3.11-slim
+    container_name: central-infra-ro-api
+    working_dir: /app
+    depends_on:
+      postgis:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://central_infra:central_infra@postgis:5432/central_infra_ro
+      ARCGIS_PORTAL_ID: ${ARCGIS_PORTAL_ID:-}
+      ARCGIS_CLIENT_ID: ${ARCGIS_CLIENT_ID:-}
+      ARCGIS_CLIENT_SECRET: ${ARCGIS_CLIENT_SECRET:-}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173}
+    volumes:
+      - ..:/app
+    command: >
+      bash -c "pip install -r backend/requirements.txt &&
+               uvicorn backend.app.main:app --host 0.0.0.0 --port 8000"
+    ports:
+      - "8000:8000"
+
+volumes:
+  dados_postgis:

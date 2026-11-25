@@ -1,0 +1,2671 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "origem": "SIMULADO",
+  "gerado_em": "2026-11-25",
+  "registros": 95,
+  "nota": "Projrcao cartografica da base de convênios (ponto = sede do municipio)."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "CV-RO-0001",
+   "properties": {
+    "id": "CV-RO-0001",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Presidente Médici",
+    "municipio_codigo": 1100254,
+    "municipio": "Presidente Médici",
+    "valor": 18864059.39,
+    "contrapartida": 1819940.13,
+    "desembolsado": 12307073.11,
+    "saldo": 6556986.28,
+    "vigencia_inicio": "2023-01-27",
+    "vigencia_fim": "2024-12-08",
+    "situacao": "concluido",
+    "dias_para_vencer": -717,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.826492,
+     -11.049714
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0002",
+   "properties": {
+    "id": "CV-RO-0002",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Ji-Paraná",
+    "municipio_codigo": 1100122,
+    "municipio": "Ji-Paraná",
+    "valor": 607060.91,
+    "contrapartida": 135443.63,
+    "desembolsado": 285891.38,
+    "saldo": 321169.53,
+    "vigencia_inicio": "2023-10-22",
+    "vigencia_fim": "2025-10-23",
+    "situacao": "execucao",
+    "dias_para_vencer": -398,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.689607,
+     -10.604044
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0003",
+   "properties": {
+    "id": "CV-RO-0003",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Mirante da Serra",
+    "municipio_codigo": 1101302,
+    "municipio": "Mirante da Serra",
+    "valor": 21784558.34,
+    "contrapartida": 1814106.39,
+    "desembolsado": 10356880.82,
+    "saldo": 11427677.52,
+    "vigencia_inicio": "2026-05-16",
+    "vigencia_fim": "2029-07-05",
+    "situacao": "execucao",
+    "dias_para_vencer": 953,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.836953,
+     -11.163388
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0004",
+   "properties": {
+    "id": "CV-RO-0004",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Seringueiras",
+    "municipio_codigo": 1101500,
+    "municipio": "Seringueiras",
+    "valor": 24823005.17,
+    "contrapartida": 2083698.73,
+    "desembolsado": 23406859.6,
+    "saldo": 1416145.57,
+    "vigencia_inicio": "2026-01-11",
+    "vigencia_fim": "2028-10-28",
+    "situacao": "vigente",
+    "dias_para_vencer": 703,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.320126,
+     -11.603018
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0005",
+   "properties": {
+    "id": "CV-RO-0005",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Espigão D'Oeste",
+    "municipio_codigo": 1100098,
+    "municipio": "Espigão D'Oeste",
+    "valor": 7156307.54,
+    "contrapartida": 987428.11,
+    "desembolsado": 2615217.83,
+    "saldo": 4541089.71,
+    "vigencia_inicio": "2023-10-24",
+    "vigencia_fim": "2026-03-28",
+    "situacao": "concluido",
+    "dias_para_vencer": -242,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.749225,
+     -11.375568
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0006",
+   "properties": {
+    "id": "CV-RO-0006",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Nova União",
+    "municipio_codigo": 1101435,
+    "municipio": "Nova União",
+    "valor": 26002643.19,
+    "contrapartida": 5325805.53,
+    "desembolsado": 11303734.72,
+    "saldo": 14698908.47,
+    "vigencia_inicio": "2023-09-13",
+    "vigencia_fim": "2027-07-08",
+    "situacao": "vigente",
+    "dias_para_vencer": 225,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.631413,
+     -10.825667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0007",
+   "properties": {
+    "id": "CV-RO-0007",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Porto Velho",
+    "municipio_codigo": 1100205,
+    "municipio": "Porto Velho",
+    "valor": 2011660.01,
+    "contrapartida": 416404.77,
+    "desembolsado": 402397.55,
+    "saldo": 1609262.46,
+    "vigencia_inicio": "2024-10-15",
+    "vigencia_fim": "2027-01-06",
+    "situacao": "vigente",
+    "dias_para_vencer": 42,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.424638,
+     -8.249985
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0008",
+   "properties": {
+    "id": "CV-RO-0008",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Parecis",
+    "municipio_codigo": 1101450,
+    "municipio": "Parecis",
+    "valor": 20660697.36,
+    "contrapartida": 4543284.23,
+    "desembolsado": 18040480.59,
+    "saldo": 2620216.77,
+    "vigencia_inicio": "2024-09-29",
+    "vigencia_fim": "2027-09-20",
+    "situacao": "vigente",
+    "dias_para_vencer": 299,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.578244,
+     -12.152816
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0009",
+   "properties": {
+    "id": "CV-RO-0009",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Costa Marques",
+    "municipio_codigo": 1100080,
+    "municipio": "Costa Marques",
+    "valor": 27577427.71,
+    "contrapartida": 6059148.9,
+    "desembolsado": 4195257.42,
+    "saldo": 23382170.29,
+    "vigencia_inicio": "2025-02-20",
+    "vigencia_fim": "2027-06-06",
+    "situacao": "vigente",
+    "dias_para_vencer": 193,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.300692,
+     -12.250786
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0010",
+   "properties": {
+    "id": "CV-RO-0010",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Vilhena",
+    "municipio_codigo": 1100304,
+    "municipio": "Vilhena",
+    "valor": 27163717.75,
+    "contrapartida": 5070045.13,
+    "desembolsado": 20627100.13,
+    "saldo": 6536617.62,
+    "vigencia_inicio": "2025-05-18",
+    "vigencia_fim": "2029-03-14",
+    "situacao": "vigente",
+    "dias_para_vencer": 840,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.167462,
+     -12.460953
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0011",
+   "properties": {
+    "id": "CV-RO-0011",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Vale do Anari",
+    "municipio_codigo": 1101757,
+    "municipio": "Vale do Anari",
+    "valor": 24846090.06,
+    "contrapartida": 1574012.84,
+    "desembolsado": 19600218.77,
+    "saldo": 5245871.29,
+    "vigencia_inicio": "2023-03-18",
+    "vigencia_fim": "2026-07-10",
+    "situacao": "concluido",
+    "dias_para_vencer": -138,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.029338,
+     -9.753879
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0012",
+   "properties": {
+    "id": "CV-RO-0012",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Cujubim",
+    "municipio_codigo": 1100940,
+    "municipio": "Cujubim",
+    "valor": 6784801.61,
+    "contrapartida": 1178759.05,
+    "desembolsado": 5739692.69,
+    "saldo": 1045108.92,
+    "vigencia_inicio": "2025-10-21",
+    "vigencia_fim": "2029-10-09",
+    "situacao": "concluido",
+    "dias_para_vencer": 1049,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.940549,
+     -9.487141
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0013",
+   "properties": {
+    "id": "CV-RO-0013",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Mirante da Serra",
+    "municipio_codigo": 1101302,
+    "municipio": "Mirante da Serra",
+    "valor": 26078334.5,
+    "contrapartida": 5866121.14,
+    "desembolsado": 16883920.32,
+    "saldo": 9194414.18,
+    "vigencia_inicio": "2023-08-24",
+    "vigencia_fim": "2027-03-27",
+    "situacao": "execucao",
+    "dias_para_vencer": 122,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.12576,
+     -11.074174
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0014",
+   "properties": {
+    "id": "CV-RO-0014",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Rolim de Moura",
+    "municipio_codigo": 1100288,
+    "municipio": "Rolim de Moura",
+    "valor": 18325599.86,
+    "contrapartida": 1806667.36,
+    "desembolsado": 4170425.26,
+    "saldo": 14155174.6,
+    "vigencia_inicio": "2025-08-04",
+    "vigencia_fim": "2028-11-30",
+    "situacao": "execucao",
+    "dias_para_vencer": 736,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.692909,
+     -11.759968
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0015",
+   "properties": {
+    "id": "CV-RO-0015",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Guajará-Mirim",
+    "municipio_codigo": 1100106,
+    "municipio": "Guajará-Mirim",
+    "valor": 17739992.27,
+    "contrapartida": 4106983.88,
+    "desembolsado": 3481457.3,
+    "saldo": 14258534.97,
+    "vigencia_inicio": "2023-03-20",
+    "vigencia_fim": "2024-05-17",
+    "situacao": "execucao",
+    "dias_para_vencer": -922,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.447159,
+     -11.475919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0016",
+   "properties": {
+    "id": "CV-RO-0016",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de São Francisco do Guaporé",
+    "municipio_codigo": 1101492,
+    "municipio": "São Francisco do Guaporé",
+    "valor": 8424262.98,
+    "contrapartida": 1979401.43,
+    "desembolsado": 7715355.93,
+    "saldo": 708907.05,
+    "vigencia_inicio": "2023-08-13",
+    "vigencia_fim": "2027-01-28",
+    "situacao": "execucao",
+    "dias_para_vencer": 64,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.32991,
+     -12.545224
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0017",
+   "properties": {
+    "id": "CV-RO-0017",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Buritis",
+    "municipio_codigo": 1100452,
+    "municipio": "Buritis",
+    "valor": 27791506.79,
+    "contrapartida": 6852149.99,
+    "desembolsado": 3763733.69,
+    "saldo": 24027773.1,
+    "vigencia_inicio": "2023-05-08",
+    "vigencia_fim": "2026-11-18",
+    "situacao": "execucao",
+    "dias_para_vencer": -7,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.051973,
+     -10.023462
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0018",
+   "properties": {
+    "id": "CV-RO-0018",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Alta Floresta D'Oeste",
+    "municipio_codigo": 1100015,
+    "municipio": "Alta Floresta D'Oeste",
+    "valor": 1912843.23,
+    "contrapartida": 327827.33,
+    "desembolsado": 949431.66,
+    "saldo": 963411.57,
+    "vigencia_inicio": "2026-04-12",
+    "vigencia_fim": "2028-01-17",
+    "situacao": "atrasado",
+    "dias_para_vencer": 418,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.199094,
+     -12.681266
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0019",
+   "properties": {
+    "id": "CV-RO-0019",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Cujubim",
+    "municipio_codigo": 1100940,
+    "municipio": "Cujubim",
+    "valor": 570145.99,
+    "contrapartida": 117288.76,
+    "desembolsado": 326000.36,
+    "saldo": 244145.63,
+    "vigencia_inicio": "2025-03-17",
+    "vigencia_fim": "2026-07-12",
+    "situacao": "atrasado",
+    "dias_para_vencer": -136,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.963495,
+     -9.465321
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0020",
+   "properties": {
+    "id": "CV-RO-0020",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Monte Negro",
+    "municipio_codigo": 1101401,
+    "municipio": "Monte Negro",
+    "valor": 21452290.78,
+    "contrapartida": 1304174.0,
+    "desembolsado": 15575122.01,
+    "saldo": 5877168.77,
+    "vigencia_inicio": "2023-08-11",
+    "vigencia_fim": "2025-09-08",
+    "situacao": "vigente",
+    "dias_para_vencer": -443,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.210729,
+     -10.032405
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0021",
+   "properties": {
+    "id": "CV-RO-0021",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Campo Novo de Rondônia",
+    "municipio_codigo": 1100700,
+    "municipio": "Campo Novo de Rondônia",
+    "valor": 20308606.07,
+    "contrapartida": 1988984.14,
+    "desembolsado": 16870887.3,
+    "saldo": 3437718.77,
+    "vigencia_inicio": "2025-09-11",
+    "vigencia_fim": "2029-01-12",
+    "situacao": "atrasado",
+    "dias_para_vencer": 779,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.731976,
+     -10.641382
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0022",
+   "properties": {
+    "id": "CV-RO-0022",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Guajará-Mirim",
+    "municipio_codigo": 1100106,
+    "municipio": "Guajará-Mirim",
+    "valor": 15742625.4,
+    "contrapartida": 796480.35,
+    "desembolsado": 9592367.97,
+    "saldo": 6150257.43,
+    "vigencia_inicio": "2025-06-26",
+    "vigencia_fim": "2028-07-18",
+    "situacao": "concluido",
+    "dias_para_vencer": 601,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.376368,
+     -12.058313
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0023",
+   "properties": {
+    "id": "CV-RO-0023",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Seringueiras",
+    "municipio_codigo": 1101500,
+    "municipio": "Seringueiras",
+    "valor": 24105858.43,
+    "contrapartida": 3893051.85,
+    "desembolsado": 18135711.48,
+    "saldo": 5970146.95,
+    "vigencia_inicio": "2024-10-11",
+    "vigencia_fim": "2027-05-30",
+    "situacao": "execucao",
+    "dias_para_vencer": 186,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.044414,
+     -11.73967
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0024",
+   "properties": {
+    "id": "CV-RO-0024",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Alvorada D'Oeste",
+    "municipio_codigo": 1100346,
+    "municipio": "Alvorada D'Oeste",
+    "valor": 12051238.29,
+    "contrapartida": 2973276.41,
+    "desembolsado": 6162762.43,
+    "saldo": 5888475.86,
+    "vigencia_inicio": "2025-08-05",
+    "vigencia_fim": "2027-09-21",
+    "situacao": "execucao",
+    "dias_para_vencer": 300,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.12872,
+     -11.366102
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0025",
+   "properties": {
+    "id": "CV-RO-0025",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Rolim de Moura",
+    "municipio_codigo": 1100288,
+    "municipio": "Rolim de Moura",
+    "valor": 10578683.21,
+    "contrapartida": 1113533.81,
+    "desembolsado": 2356894.16,
+    "saldo": 8221789.05,
+    "vigencia_inicio": "2025-01-01",
+    "vigencia_fim": "2026-03-03",
+    "situacao": "vigente",
+    "dias_para_vencer": -267,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.74764,
+     -11.782938
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0026",
+   "properties": {
+    "id": "CV-RO-0026",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Urupá",
+    "municipio_codigo": 1101708,
+    "municipio": "Urupá",
+    "valor": 25510975.98,
+    "contrapartida": 2415772.17,
+    "desembolsado": 12489290.44,
+    "saldo": 13021685.54,
+    "vigencia_inicio": "2023-07-07",
+    "vigencia_fim": "2026-08-04",
+    "situacao": "vigente",
+    "dias_para_vencer": -113,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.546985,
+     -11.180113
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0027",
+   "properties": {
+    "id": "CV-RO-0027",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Cujubim",
+    "municipio_codigo": 1100940,
+    "municipio": "Cujubim",
+    "valor": 17574274.16,
+    "contrapartida": 2449889.45,
+    "desembolsado": 9581917.35,
+    "saldo": 7992356.81,
+    "vigencia_inicio": "2024-08-29",
+    "vigencia_fim": "2026-11-05",
+    "situacao": "execucao",
+    "dias_para_vencer": -20,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.39361,
+     -8.789598
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0028",
+   "properties": {
+    "id": "CV-RO-0028",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Theobroma",
+    "municipio_codigo": 1101609,
+    "municipio": "Theobroma",
+    "valor": 16102937.22,
+    "contrapartida": 2401641.49,
+    "desembolsado": 11725454.04,
+    "saldo": 4377483.18,
+    "vigencia_inicio": "2026-04-08",
+    "vigencia_fim": "2029-03-30",
+    "situacao": "execucao",
+    "dias_para_vencer": 856,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.424094,
+     -9.94733
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0029",
+   "properties": {
+    "id": "CV-RO-0029",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Ministro Andreazza",
+    "municipio_codigo": 1101203,
+    "municipio": "Ministro Andreazza",
+    "valor": 5182933.06,
+    "contrapartida": 1204846.83,
+    "desembolsado": 3709305.99,
+    "saldo": 1473627.07,
+    "vigencia_inicio": "2026-04-22",
+    "vigencia_fim": "2029-05-02",
+    "situacao": "concluido",
+    "dias_para_vencer": 889,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.513992,
+     -11.15079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0030",
+   "properties": {
+    "id": "CV-RO-0030",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Teixeirópolis",
+    "municipio_codigo": 1101559,
+    "municipio": "Teixeirópolis",
+    "valor": 780909.72,
+    "contrapartida": 161500.07,
+    "desembolsado": 92262.23,
+    "saldo": 688647.49,
+    "vigencia_inicio": "2026-08-18",
+    "vigencia_fim": "2027-08-14",
+    "situacao": "atrasado",
+    "dias_para_vencer": 262,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.358902,
+     -10.947079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0031",
+   "properties": {
+    "id": "CV-RO-0031",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Buritis",
+    "municipio_codigo": 1100452,
+    "municipio": "Buritis",
+    "valor": 27943646.73,
+    "contrapartida": 1816881.84,
+    "desembolsado": 7986561.09,
+    "saldo": 19957085.64,
+    "vigencia_inicio": "2026-01-10",
+    "vigencia_fim": "2029-03-01",
+    "situacao": "vigente",
+    "dias_para_vencer": 827,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.006473,
+     -10.0368
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0032",
+   "properties": {
+    "id": "CV-RO-0032",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Urupá",
+    "municipio_codigo": 1101708,
+    "municipio": "Urupá",
+    "valor": 9674319.97,
+    "contrapartida": 2280798.46,
+    "desembolsado": 6191839.96,
+    "saldo": 3482480.01,
+    "vigencia_inicio": "2024-08-10",
+    "vigencia_fim": "2026-08-10",
+    "situacao": "vigente",
+    "dias_para_vencer": -107,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.58742,
+     -11.192231
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0033",
+   "properties": {
+    "id": "CV-RO-0033",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Monte Negro",
+    "municipio_codigo": 1101401,
+    "municipio": "Monte Negro",
+    "valor": 18078875.06,
+    "contrapartida": 1949489.37,
+    "desembolsado": 1241683.44,
+    "saldo": 16837191.62,
+    "vigencia_inicio": "2023-01-28",
+    "vigencia_fim": "2025-08-03",
+    "situacao": "execucao",
+    "dias_para_vencer": -479,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.366057,
+     -10.199353
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0034",
+   "properties": {
+    "id": "CV-RO-0034",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Nova Mamoré",
+    "municipio_codigo": 1100338,
+    "municipio": "Nova Mamoré",
+    "valor": 4712719.42,
+    "contrapartida": 661317.54,
+    "desembolsado": 1071419.35,
+    "saldo": 3641300.07,
+    "vigencia_inicio": "2024-03-19",
+    "vigencia_fim": "2025-05-03",
+    "situacao": "atrasado",
+    "dias_para_vencer": -571,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.897264,
+     -10.096912
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0035",
+   "properties": {
+    "id": "CV-RO-0035",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Urupá",
+    "municipio_codigo": 1101708,
+    "municipio": "Urupá",
+    "valor": 26460192.1,
+    "contrapartida": 2354254.65,
+    "desembolsado": 15513833.52,
+    "saldo": 10946358.58,
+    "vigencia_inicio": "2025-12-11",
+    "vigencia_fim": "2029-02-26",
+    "situacao": "execucao",
+    "dias_para_vencer": 824,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.374876,
+     -11.15829
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0036",
+   "properties": {
+    "id": "CV-RO-0036",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Vilhena",
+    "municipio_codigo": 1100304,
+    "municipio": "Vilhena",
+    "valor": 26592788.47,
+    "contrapartida": 1512223.12,
+    "desembolsado": 24255173.27,
+    "saldo": 2337615.2,
+    "vigencia_inicio": "2026-04-20",
+    "vigencia_fim": "2029-04-16",
+    "situacao": "concluido",
+    "dias_para_vencer": 873,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.066856,
+     -12.617341
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0037",
+   "properties": {
+    "id": "CV-RO-0037",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Porto Velho",
+    "municipio_codigo": 1100205,
+    "municipio": "Porto Velho",
+    "valor": 16269122.54,
+    "contrapartida": 1992146.11,
+    "desembolsado": 1593537.21,
+    "saldo": 14675585.33,
+    "vigencia_inicio": "2025-11-03",
+    "vigencia_fim": "2027-02-03",
+    "situacao": "execucao",
+    "dias_para_vencer": 70,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.419306,
+     -9.711644
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0038",
+   "properties": {
+    "id": "CV-RO-0038",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Costa Marques",
+    "municipio_codigo": 1100080,
+    "municipio": "Costa Marques",
+    "valor": 24095033.26,
+    "contrapartida": 1515595.71,
+    "desembolsado": 13934785.47,
+    "saldo": 10160247.79,
+    "vigencia_inicio": "2024-07-10",
+    "vigencia_fim": "2025-07-08",
+    "situacao": "concluido",
+    "dias_para_vencer": -505,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.833917,
+     -12.251413
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0039",
+   "properties": {
+    "id": "CV-RO-0039",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Alvorada D'Oeste",
+    "municipio_codigo": 1100346,
+    "municipio": "Alvorada D'Oeste",
+    "valor": 25596605.6,
+    "contrapartida": 1335136.79,
+    "desembolsado": 14847792.44,
+    "saldo": 10748813.16,
+    "vigencia_inicio": "2025-05-22",
+    "vigencia_fim": "2027-12-11",
+    "situacao": "concluido",
+    "dias_para_vencer": 381,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.371507,
+     -11.512628
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0040",
+   "properties": {
+    "id": "CV-RO-0040",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Teixeirópolis",
+    "municipio_codigo": 1101559,
+    "municipio": "Teixeirópolis",
+    "valor": 13719547.01,
+    "contrapartida": 2740564.27,
+    "desembolsado": 798413.94,
+    "saldo": 12921133.07,
+    "vigencia_inicio": "2024-01-03",
+    "vigencia_fim": "2025-06-03",
+    "situacao": "execucao",
+    "dias_para_vencer": -540,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.298125,
+     -10.912759
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0041",
+   "properties": {
+    "id": "CV-RO-0041",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Cujubim",
+    "municipio_codigo": 1100940,
+    "municipio": "Cujubim",
+    "valor": 15897485.61,
+    "contrapartida": 3827542.09,
+    "desembolsado": 14186615.19,
+    "saldo": 1710870.42,
+    "vigencia_inicio": "2025-08-24",
+    "vigencia_fim": "2028-12-27",
+    "situacao": "execucao",
+    "dias_para_vencer": 763,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.414099,
+     -8.87732
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0042",
+   "properties": {
+    "id": "CV-RO-0042",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Santa Luzia D'Oeste",
+    "municipio_codigo": 1100296,
+    "municipio": "Santa Luzia D'Oeste",
+    "valor": 25667068.93,
+    "contrapartida": 1745942.08,
+    "desembolsado": 14009216.73,
+    "saldo": 11657852.2,
+    "vigencia_inicio": "2026-08-20",
+    "vigencia_fim": "2029-10-19",
+    "situacao": "concluido",
+    "dias_para_vencer": 1059,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.755574,
+     -12.164558
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0043",
+   "properties": {
+    "id": "CV-RO-0043",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Castanheiras",
+    "municipio_codigo": 1100908,
+    "municipio": "Castanheiras",
+    "valor": 18593972.87,
+    "contrapartida": 3373711.91,
+    "desembolsado": 10299663.16,
+    "saldo": 8294309.71,
+    "vigencia_inicio": "2023-02-11",
+    "vigencia_fim": "2024-09-08",
+    "situacao": "execucao",
+    "dias_para_vencer": -808,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.987349,
+     -11.33145
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0044",
+   "properties": {
+    "id": "CV-RO-0044",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Nova Brasilândia D'Oeste",
+    "municipio_codigo": 1100148,
+    "municipio": "Nova Brasilândia D'Oeste",
+    "valor": 14619001.63,
+    "contrapartida": 2987732.54,
+    "desembolsado": 10194204.56,
+    "saldo": 4424797.07,
+    "vigencia_inicio": "2024-07-11",
+    "vigencia_fim": "2028-04-08",
+    "situacao": "vigente",
+    "dias_para_vencer": 500,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.396364,
+     -11.572679
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0045",
+   "properties": {
+    "id": "CV-RO-0045",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Cacaulândia",
+    "municipio_codigo": 1100601,
+    "municipio": "Cacaulândia",
+    "valor": 26301124.27,
+    "contrapartida": 6571781.76,
+    "desembolsado": 22013800.5,
+    "saldo": 4287323.77,
+    "vigencia_inicio": "2024-03-25",
+    "vigencia_fim": "2028-02-19",
+    "situacao": "cancelado",
+    "dias_para_vencer": 451,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.9045,
+     -10.435112
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0046",
+   "properties": {
+    "id": "CV-RO-0046",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Castanheiras",
+    "municipio_codigo": 1100908,
+    "municipio": "Castanheiras",
+    "valor": 13134805.67,
+    "contrapartida": 998828.57,
+    "desembolsado": 2949694.54,
+    "saldo": 10185111.13,
+    "vigencia_inicio": "2023-04-29",
+    "vigencia_fim": "2026-04-27",
+    "situacao": "execucao",
+    "dias_para_vencer": -212,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.825759,
+     -11.388194
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0047",
+   "properties": {
+    "id": "CV-RO-0047",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Costa Marques",
+    "municipio_codigo": 1100080,
+    "municipio": "Costa Marques",
+    "valor": 10133114.0,
+    "contrapartida": 1299891.5,
+    "desembolsado": 5811239.36,
+    "saldo": 4321874.64,
+    "vigencia_inicio": "2023-12-30",
+    "vigencia_fim": "2026-03-12",
+    "situacao": "execucao",
+    "dias_para_vencer": -258,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.050419,
+     -11.810456
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0048",
+   "properties": {
+    "id": "CV-RO-0048",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Monte Negro",
+    "municipio_codigo": 1101401,
+    "municipio": "Monte Negro",
+    "valor": 10660078.07,
+    "contrapartida": 1328266.97,
+    "desembolsado": 3351746.54,
+    "saldo": 7308331.53,
+    "vigencia_inicio": "2024-05-05",
+    "vigencia_fim": "2028-03-29",
+    "situacao": "execucao",
+    "dias_para_vencer": 490,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.508933,
+     -10.105317
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0049",
+   "properties": {
+    "id": "CV-RO-0049",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Rio Crespo",
+    "municipio_codigo": 1100262,
+    "municipio": "Rio Crespo",
+    "valor": 16569213.8,
+    "contrapartida": 3604202.98,
+    "desembolsado": 6378807.42,
+    "saldo": 10190406.38,
+    "vigencia_inicio": "2023-08-27",
+    "vigencia_fim": "2025-08-28",
+    "situacao": "concluido",
+    "dias_para_vencer": -454,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.663382,
+     -9.645483
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0050",
+   "properties": {
+    "id": "CV-RO-0050",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Santa Luzia D'Oeste",
+    "municipio_codigo": 1100296,
+    "municipio": "Santa Luzia D'Oeste",
+    "valor": 2394778.65,
+    "contrapartida": 133352.03,
+    "desembolsado": 1515185.58,
+    "saldo": 879593.07,
+    "vigencia_inicio": "2023-07-19",
+    "vigencia_fim": "2025-07-15",
+    "situacao": "execucao",
+    "dias_para_vencer": -498,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.739753,
+     -12.259896
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0051",
+   "properties": {
+    "id": "CV-RO-0051",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Ouro Preto do Oeste",
+    "municipio_codigo": 1100155,
+    "municipio": "Ouro Preto do Oeste",
+    "valor": 19946132.72,
+    "contrapartida": 4942609.77,
+    "desembolsado": 17331812.22,
+    "saldo": 2614320.5,
+    "vigencia_inicio": "2023-03-01",
+    "vigencia_fim": "2025-06-06",
+    "situacao": "execucao",
+    "dias_para_vencer": -537,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.266452,
+     -10.611587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0052",
+   "properties": {
+    "id": "CV-RO-0052",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Ouro Preto do Oeste",
+    "municipio_codigo": 1100155,
+    "municipio": "Ouro Preto do Oeste",
+    "valor": 1900794.72,
+    "contrapartida": 309369.27,
+    "desembolsado": 856715.58,
+    "saldo": 1044079.14,
+    "vigencia_inicio": "2023-05-07",
+    "vigencia_fim": "2026-09-04",
+    "situacao": "execucao",
+    "dias_para_vencer": -82,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.005503,
+     -10.428867
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0053",
+   "properties": {
+    "id": "CV-RO-0053",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Buritis",
+    "municipio_codigo": 1100452,
+    "municipio": "Buritis",
+    "valor": 422986.41,
+    "contrapartida": 34810.5,
+    "desembolsado": 316387.72,
+    "saldo": 106598.69,
+    "vigencia_inicio": "2024-02-06",
+    "vigencia_fim": "2027-04-17",
+    "situacao": "vigente",
+    "dias_para_vencer": 143,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.671905,
+     -10.218329
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0054",
+   "properties": {
+    "id": "CV-RO-0054",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de São Francisco do Guaporé",
+    "municipio_codigo": 1101492,
+    "municipio": "São Francisco do Guaporé",
+    "valor": 3383752.18,
+    "contrapartida": 398301.49,
+    "desembolsado": 2159616.89,
+    "saldo": 1224135.29,
+    "vigencia_inicio": "2025-03-01",
+    "vigencia_fim": "2029-01-06",
+    "situacao": "execucao",
+    "dias_para_vencer": 773,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.408291,
+     -12.362906
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0055",
+   "properties": {
+    "id": "CV-RO-0055",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Costa Marques",
+    "municipio_codigo": 1100080,
+    "municipio": "Costa Marques",
+    "valor": 16499980.59,
+    "contrapartida": 3629573.78,
+    "desembolsado": 7570595.59,
+    "saldo": 8929385.0,
+    "vigencia_inicio": "2024-08-13",
+    "vigencia_fim": "2026-11-24",
+    "situacao": "vigente",
+    "dias_para_vencer": -1,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.838711,
+     -12.426379
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0056",
+   "properties": {
+    "id": "CV-RO-0056",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Ministro Andreazza",
+    "municipio_codigo": 1101203,
+    "municipio": "Ministro Andreazza",
+    "valor": 3974199.97,
+    "contrapartida": 435265.74,
+    "desembolsado": 2024603.1,
+    "saldo": 1949596.87,
+    "vigencia_inicio": "2024-06-18",
+    "vigencia_fim": "2026-02-20",
+    "situacao": "vigente",
+    "dias_para_vencer": -278,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.57711,
+     -11.107204
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0057",
+   "properties": {
+    "id": "CV-RO-0057",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de São Felipe D'Oeste",
+    "municipio_codigo": 1101484,
+    "municipio": "São Felipe D'Oeste",
+    "valor": 16661158.8,
+    "contrapartida": 1952145.67,
+    "desembolsado": 10031547.84,
+    "saldo": 6629610.96,
+    "vigencia_inicio": "2026-04-18",
+    "vigencia_fim": "2029-06-01",
+    "situacao": "execucao",
+    "dias_para_vencer": 919,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.456122,
+     -11.800644
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0058",
+   "properties": {
+    "id": "CV-RO-0058",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Presidente Médici",
+    "municipio_codigo": 1100254,
+    "municipio": "Presidente Médici",
+    "valor": 23262559.41,
+    "contrapartida": 1414083.65,
+    "desembolsado": 8903381.69,
+    "saldo": 14359177.72,
+    "vigencia_inicio": "2023-07-21",
+    "vigencia_fim": "2027-02-09",
+    "situacao": "execucao",
+    "dias_para_vencer": 76,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.990038,
+     -11.28143
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0059",
+   "properties": {
+    "id": "CV-RO-0059",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Monte Negro",
+    "municipio_codigo": 1101401,
+    "municipio": "Monte Negro",
+    "valor": 8187993.61,
+    "contrapartida": 552182.57,
+    "desembolsado": 3282836.03,
+    "saldo": 4905157.58,
+    "vigencia_inicio": "2025-06-13",
+    "vigencia_fim": "2028-12-20",
+    "situacao": "atrasado",
+    "dias_para_vencer": 756,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.218572,
+     -10.07217
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0060",
+   "properties": {
+    "id": "CV-RO-0060",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Buritis",
+    "municipio_codigo": 1100452,
+    "municipio": "Buritis",
+    "valor": 15182628.4,
+    "contrapartida": 2121394.25,
+    "desembolsado": 12701989.34,
+    "saldo": 2480639.06,
+    "vigencia_inicio": "2024-06-05",
+    "vigencia_fim": "2025-06-11",
+    "situacao": "vigente",
+    "dias_para_vencer": -532,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.173299,
+     -10.117109
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0061",
+   "properties": {
+    "id": "CV-RO-0061",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Novo Horizonte do Oeste",
+    "municipio_codigo": 1100502,
+    "municipio": "Novo Horizonte do Oeste",
+    "valor": 24831929.92,
+    "contrapartida": 4062067.69,
+    "desembolsado": 13203529.69,
+    "saldo": 11628400.23,
+    "vigencia_inicio": "2024-10-25",
+    "vigencia_fim": "2027-06-22",
+    "situacao": "execucao",
+    "dias_para_vencer": 209,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.105782,
+     -11.60224
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0062",
+   "properties": {
+    "id": "CV-RO-0062",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Pimenteiras do Oeste",
+    "municipio_codigo": 1101468,
+    "municipio": "Pimenteiras do Oeste",
+    "valor": 20321761.74,
+    "contrapartida": 2145607.98,
+    "desembolsado": 1662126.01,
+    "saldo": 18659635.73,
+    "vigencia_inicio": "2025-06-09",
+    "vigencia_fim": "2027-02-01",
+    "situacao": "atrasado",
+    "dias_para_vencer": 68,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.552552,
+     -12.713139
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0063",
+   "properties": {
+    "id": "CV-RO-0063",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Parecis",
+    "municipio_codigo": 1101450,
+    "municipio": "Parecis",
+    "valor": 1126287.38,
+    "contrapartida": 234366.32,
+    "desembolsado": 688230.44,
+    "saldo": 438056.94,
+    "vigencia_inicio": "2023-05-11",
+    "vigencia_fim": "2027-06-04",
+    "situacao": "execucao",
+    "dias_para_vencer": 191,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.569858,
+     -12.154127
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0064",
+   "properties": {
+    "id": "CV-RO-0064",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Seringueiras",
+    "municipio_codigo": 1101500,
+    "municipio": "Seringueiras",
+    "valor": 22411587.54,
+    "contrapartida": 2338793.4,
+    "desembolsado": 13807559.27,
+    "saldo": 8604028.27,
+    "vigencia_inicio": "2023-09-24",
+    "vigencia_fim": "2027-04-22",
+    "situacao": "execucao",
+    "dias_para_vencer": 148,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.583134,
+     -11.772255
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0065",
+   "properties": {
+    "id": "CV-RO-0065",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Nova União",
+    "municipio_codigo": 1101435,
+    "municipio": "Nova União",
+    "valor": 21807599.03,
+    "contrapartida": 3819811.37,
+    "desembolsado": 5620492.77,
+    "saldo": 16187106.26,
+    "vigencia_inicio": "2025-11-28",
+    "vigencia_fim": "2027-12-05",
+    "situacao": "vigente",
+    "dias_para_vencer": 375,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.51282,
+     -11.000365
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0066",
+   "properties": {
+    "id": "CV-RO-0066",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Buritis",
+    "municipio_codigo": 1100452,
+    "municipio": "Buritis",
+    "valor": 4008729.97,
+    "contrapartida": 548641.07,
+    "desembolsado": 200561.22,
+    "saldo": 3808168.75,
+    "vigencia_inicio": "2024-03-06",
+    "vigencia_fim": "2027-04-14",
+    "situacao": "concluido",
+    "dias_para_vencer": 140,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.960133,
+     -10.223432
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0067",
+   "properties": {
+    "id": "CV-RO-0067",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Buritis",
+    "municipio_codigo": 1100452,
+    "municipio": "Buritis",
+    "valor": 12778653.49,
+    "contrapartida": 953649.56,
+    "desembolsado": 4454592.64,
+    "saldo": 8324060.85,
+    "vigencia_inicio": "2023-12-24",
+    "vigencia_fim": "2027-06-23",
+    "situacao": "execucao",
+    "dias_para_vencer": 210,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.647294,
+     -10.155552
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0068",
+   "properties": {
+    "id": "CV-RO-0068",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Ariquemes",
+    "municipio_codigo": 1100023,
+    "municipio": "Ariquemes",
+    "valor": 7052067.15,
+    "contrapartida": 1077716.94,
+    "desembolsado": 1279550.26,
+    "saldo": 5772516.89,
+    "vigencia_inicio": "2024-09-20",
+    "vigencia_fim": "2028-08-12",
+    "situacao": "vigente",
+    "dias_para_vencer": 626,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.77443,
+     -10.12907
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0069",
+   "properties": {
+    "id": "CV-RO-0069",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Theobroma",
+    "municipio_codigo": 1101609,
+    "municipio": "Theobroma",
+    "valor": 6587055.89,
+    "contrapartida": 821735.78,
+    "desembolsado": 5618111.36,
+    "saldo": 968944.53,
+    "vigencia_inicio": "2024-07-28",
+    "vigencia_fim": "2026-07-22",
+    "situacao": "vigente",
+    "dias_para_vencer": -126,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.250021,
+     -10.162452
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0070",
+   "properties": {
+    "id": "CV-RO-0070",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Candeias do Jamari",
+    "municipio_codigo": 1100809,
+    "municipio": "Candeias do Jamari",
+    "valor": 9658986.83,
+    "contrapartida": 1917457.45,
+    "desembolsado": 6383988.35,
+    "saldo": 3274998.48,
+    "vigencia_inicio": "2025-11-12",
+    "vigencia_fim": "2028-07-14",
+    "situacao": "concluido",
+    "dias_para_vencer": 597,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.2647,
+     -8.610053
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0071",
+   "properties": {
+    "id": "CV-RO-0071",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Vale do Anari",
+    "municipio_codigo": 1101757,
+    "municipio": "Vale do Anari",
+    "valor": 13654042.28,
+    "contrapartida": 1562963.06,
+    "desembolsado": 3924824.78,
+    "saldo": 9729217.5,
+    "vigencia_inicio": "2023-08-26",
+    "vigencia_fim": "2027-03-31",
+    "situacao": "vigente",
+    "dias_para_vencer": 126,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.613214,
+     -9.671926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0072",
+   "properties": {
+    "id": "CV-RO-0072",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Cacoal",
+    "municipio_codigo": 1100049,
+    "municipio": "Cacoal",
+    "valor": 7754449.71,
+    "contrapartida": 1009835.74,
+    "desembolsado": 603651.08,
+    "saldo": 7150798.63,
+    "vigencia_inicio": "2024-12-01",
+    "vigencia_fim": "2026-10-23",
+    "situacao": "atrasado",
+    "dias_para_vencer": -33,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.163992,
+     -11.321215
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0073",
+   "properties": {
+    "id": "CV-RO-0073",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Ariquemes",
+    "municipio_codigo": 1100023,
+    "municipio": "Ariquemes",
+    "valor": 19362001.7,
+    "contrapartida": 4017765.52,
+    "desembolsado": 14795754.39,
+    "saldo": 4566247.31,
+    "vigencia_inicio": "2026-08-28",
+    "vigencia_fim": "2029-01-04",
+    "situacao": "vigente",
+    "dias_para_vencer": 771,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.488065,
+     -9.844327
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0074",
+   "properties": {
+    "id": "CV-RO-0074",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de São Francisco do Guaporé",
+    "municipio_codigo": 1101492,
+    "municipio": "São Francisco do Guaporé",
+    "valor": 10183529.66,
+    "contrapartida": 1620216.34,
+    "desembolsado": 5579076.17,
+    "saldo": 4604453.49,
+    "vigencia_inicio": "2024-02-05",
+    "vigencia_fim": "2025-06-26",
+    "situacao": "concluido",
+    "dias_para_vencer": -517,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.772039,
+     -12.830369
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0075",
+   "properties": {
+    "id": "CV-RO-0075",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Santa Luzia D'Oeste",
+    "municipio_codigo": 1100296,
+    "municipio": "Santa Luzia D'Oeste",
+    "valor": 1953972.41,
+    "contrapartida": 404113.18,
+    "desembolsado": 1136749.7,
+    "saldo": 817222.71,
+    "vigencia_inicio": "2024-01-30",
+    "vigencia_fim": "2027-06-14",
+    "situacao": "vigente",
+    "dias_para_vencer": 201,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.557822,
+     -11.966418
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0076",
+   "properties": {
+    "id": "CV-RO-0076",
+    "objeto": "Recuperacao de estradas vicinais",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Cerejeiras",
+    "municipio_codigo": 1100056,
+    "municipio": "Cerejeiras",
+    "valor": 1003394.56,
+    "contrapartida": 158346.49,
+    "desembolsado": 898053.76,
+    "saldo": 105340.8,
+    "vigencia_inicio": "2026-04-14",
+    "vigencia_fim": "2028-03-28",
+    "situacao": "vigente",
+    "dias_para_vencer": 489,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.100801,
+     -13.250582
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0077",
+   "properties": {
+    "id": "CV-RO-0077",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Novo Horizonte do Oeste",
+    "municipio_codigo": 1100502,
+    "municipio": "Novo Horizonte do Oeste",
+    "valor": 22252166.27,
+    "contrapartida": 2787138.38,
+    "desembolsado": 7283065.34,
+    "saldo": 14969100.93,
+    "vigencia_inicio": "2024-06-09",
+    "vigencia_fim": "2026-10-04",
+    "situacao": "execucao",
+    "dias_para_vencer": -52,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.023295,
+     -11.692636
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0078",
+   "properties": {
+    "id": "CV-RO-0078",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Santa Luzia D'Oeste",
+    "municipio_codigo": 1100296,
+    "municipio": "Santa Luzia D'Oeste",
+    "valor": 7531133.72,
+    "contrapartida": 636306.52,
+    "desembolsado": 4368828.28,
+    "saldo": 3162305.44,
+    "vigencia_inicio": "2023-11-06",
+    "vigencia_fim": "2026-03-23",
+    "situacao": "concluido",
+    "dias_para_vencer": -247,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.609223,
+     -12.049428
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0079",
+   "properties": {
+    "id": "CV-RO-0079",
+    "objeto": "Implantacao de rede de agua e esgoto",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Guajará-Mirim",
+    "municipio_codigo": 1100106,
+    "municipio": "Guajará-Mirim",
+    "valor": 10128462.76,
+    "contrapartida": 1002017.34,
+    "desembolsado": 5141316.99,
+    "saldo": 4987145.77,
+    "vigencia_inicio": "2023-08-14",
+    "vigencia_fim": "2027-09-02",
+    "situacao": "atrasado",
+    "dias_para_vencer": 281,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -65.189636,
+     -11.626304
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0080",
+   "properties": {
+    "id": "CV-RO-0080",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Nova Mamoré",
+    "municipio_codigo": 1100338,
+    "municipio": "Nova Mamoré",
+    "valor": 3527607.85,
+    "contrapartida": 860118.23,
+    "desembolsado": 1508901.36,
+    "saldo": 2018706.49,
+    "vigencia_inicio": "2023-05-03",
+    "vigencia_fim": "2024-08-27",
+    "situacao": "vigente",
+    "dias_para_vencer": -820,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -64.213713,
+     -10.572587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0081",
+   "properties": {
+    "id": "CV-RO-0081",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Corumbiara",
+    "municipio_codigo": 1100072,
+    "municipio": "Corumbiara",
+    "valor": 3747467.55,
+    "contrapartida": 461590.8,
+    "desembolsado": 2790121.96,
+    "saldo": 957345.59,
+    "vigencia_inicio": "2026-07-20",
+    "vigencia_fim": "2030-08-07",
+    "situacao": "atrasado",
+    "dias_para_vencer": 1351,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.763709,
+     -13.018233
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0082",
+   "properties": {
+    "id": "CV-RO-0082",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Primavera de Rondônia",
+    "municipio_codigo": 1101476,
+    "municipio": "Primavera de Rondônia",
+    "valor": 27189533.05,
+    "contrapartida": 4971180.6,
+    "desembolsado": 23327045.49,
+    "saldo": 3862487.56,
+    "vigencia_inicio": "2024-01-09",
+    "vigencia_fim": "2027-12-31",
+    "situacao": "concluido",
+    "dias_para_vencer": 401,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.365787,
+     -12.016374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0083",
+   "properties": {
+    "id": "CV-RO-0083",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Alto Paraíso",
+    "municipio_codigo": 1100403,
+    "municipio": "Alto Paraíso",
+    "valor": 1183387.98,
+    "contrapartida": 233058.92,
+    "desembolsado": 60108.44,
+    "saldo": 1123279.54,
+    "vigencia_inicio": "2024-05-29",
+    "vigencia_fim": "2025-12-29",
+    "situacao": "vigente",
+    "dias_para_vencer": -331,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.111782,
+     -9.552444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0084",
+   "properties": {
+    "id": "CV-RO-0084",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Ministro Andreazza",
+    "municipio_codigo": 1101203,
+    "municipio": "Ministro Andreazza",
+    "valor": 27536283.1,
+    "contrapartida": 1733812.65,
+    "desembolsado": 25585432.79,
+    "saldo": 1950850.31,
+    "vigencia_inicio": "2023-04-09",
+    "vigencia_fim": "2026-04-25",
+    "situacao": "execucao",
+    "dias_para_vencer": -214,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.568527,
+     -11.163189
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0085",
+   "properties": {
+    "id": "CV-RO-0085",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Itapuã do Oeste",
+    "municipio_codigo": 1101104,
+    "municipio": "Itapuã do Oeste",
+    "valor": 19518411.74,
+    "contrapartida": 3950546.06,
+    "desembolsado": 16538360.78,
+    "saldo": 2980050.96,
+    "vigencia_inicio": "2023-06-08",
+    "vigencia_fim": "2027-03-23",
+    "situacao": "vigente",
+    "dias_para_vencer": 118,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.262988,
+     -9.04866
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0086",
+   "properties": {
+    "id": "CV-RO-0086",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Ministro Andreazza",
+    "municipio_codigo": 1101203,
+    "municipio": "Ministro Andreazza",
+    "valor": 22228550.83,
+    "contrapartida": 1604261.75,
+    "desembolsado": 2012600.39,
+    "saldo": 20215950.44,
+    "vigencia_inicio": "2025-02-03",
+    "vigencia_fim": "2027-11-07",
+    "situacao": "atrasado",
+    "dias_para_vencer": 347,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.617293,
+     -11.035854
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0087",
+   "properties": {
+    "id": "CV-RO-0087",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Parecis",
+    "municipio_codigo": 1101450,
+    "municipio": "Parecis",
+    "valor": 6058120.03,
+    "contrapartida": 717149.53,
+    "desembolsado": 5750877.8,
+    "saldo": 307242.23,
+    "vigencia_inicio": "2024-07-13",
+    "vigencia_fim": "2025-11-07",
+    "situacao": "vigente",
+    "dias_para_vencer": -383,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.625154,
+     -12.449804
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0088",
+   "properties": {
+    "id": "CV-RO-0088",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Chupinguaia",
+    "municipio_codigo": 1100924,
+    "municipio": "Chupinguaia",
+    "valor": 5598487.45,
+    "contrapartida": 753723.63,
+    "desembolsado": 3621325.97,
+    "saldo": 1977161.48,
+    "vigencia_inicio": "2023-11-18",
+    "vigencia_fim": "2026-07-18",
+    "situacao": "concluido",
+    "dias_para_vencer": -130,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -60.720822,
+     -12.611474
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0089",
+   "properties": {
+    "id": "CV-RO-0089",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Cujubim",
+    "municipio_codigo": 1100940,
+    "municipio": "Cujubim",
+    "valor": 11958855.49,
+    "contrapartida": 2408867.18,
+    "desembolsado": 6260908.51,
+    "saldo": 5697946.98,
+    "vigencia_inicio": "2023-05-15",
+    "vigencia_fim": "2025-10-06",
+    "situacao": "concluido",
+    "dias_para_vencer": -415,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.602525,
+     -9.232334
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0090",
+   "properties": {
+    "id": "CV-RO-0090",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Vilhena",
+    "municipio_codigo": 1100304,
+    "municipio": "Vilhena",
+    "valor": 10550590.81,
+    "contrapartida": 2167227.3,
+    "desembolsado": 1001042.58,
+    "saldo": 9549548.23,
+    "vigencia_inicio": "2023-11-21",
+    "vigencia_fim": "2027-12-29",
+    "situacao": "execucao",
+    "dias_para_vencer": 399,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -59.835402,
+     -12.370922
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0091",
+   "properties": {
+    "id": "CV-RO-0091",
+    "objeto": "Reforma de escolas municipais",
+    "orgao_concedente": "Ministério da Infraestrutura",
+    "beneficiario": "Prefeitura Municipal de Rio Crespo",
+    "municipio_codigo": 1100262,
+    "municipio": "Rio Crespo",
+    "valor": 4639490.58,
+    "contrapartida": 837090.04,
+    "desembolsado": 4131409.8,
+    "saldo": 508080.78,
+    "vigencia_inicio": "2026-04-01",
+    "vigencia_fim": "2028-01-09",
+    "situacao": "vigente",
+    "dias_para_vencer": 410,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.813455,
+     -9.635174
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0092",
+   "properties": {
+    "id": "CV-RO-0092",
+    "objeto": "Construcao de unidade de saude",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de Alvorada D'Oeste",
+    "municipio_codigo": 1100346,
+    "municipio": "Alvorada D'Oeste",
+    "valor": 10692084.91,
+    "contrapartida": 1252799.55,
+    "desembolsado": 3649532.59,
+    "saldo": 7042552.32,
+    "vigencia_inicio": "2023-09-12",
+    "vigencia_fim": "2026-03-08",
+    "situacao": "vigente",
+    "dias_para_vencer": -262,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.486275,
+     -11.539262
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0093",
+   "properties": {
+    "id": "CV-RO-0093",
+    "objeto": "Construcao de ponte sobre cursos d'agua",
+    "orgao_concedente": "Fundo Nacional de Desenvolvimento Regional",
+    "beneficiario": "Prefeitura Municipal de Theobroma",
+    "municipio_codigo": 1101609,
+    "municipio": "Theobroma",
+    "valor": 16535475.29,
+    "contrapartida": 1987579.21,
+    "desembolsado": 4550682.72,
+    "saldo": 11984792.57,
+    "vigencia_inicio": "2024-01-17",
+    "vigencia_fim": "2026-12-18",
+    "situacao": "execucao",
+    "dias_para_vencer": 23,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.377905,
+     -9.961717
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0094",
+   "properties": {
+    "id": "CV-RO-0094",
+    "objeto": "Pavimentacao de vias municipais",
+    "orgao_concedente": "Governo do Estado de Rondonia",
+    "beneficiario": "Prefeitura Municipal de Parecis",
+    "municipio_codigo": 1101450,
+    "municipio": "Parecis",
+    "valor": 9809961.93,
+    "contrapartida": 1312195.42,
+    "desembolsado": 6997590.9,
+    "saldo": 2812371.03,
+    "vigencia_inicio": "2025-08-09",
+    "vigencia_fim": "2029-04-30",
+    "situacao": "concluido",
+    "dias_para_vencer": 887,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.349541,
+     -12.600951
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CV-RO-0095",
+   "properties": {
+    "id": "CV-RO-0095",
+    "objeto": "Aquisição de equipamentos de manutencao",
+    "orgao_concedente": "Ministerio das Cidades",
+    "beneficiario": "Prefeitura Municipal de São Felipe D'Oeste",
+    "municipio_codigo": 1101484,
+    "municipio": "São Felipe D'Oeste",
+    "valor": 15231455.74,
+    "contrapartida": 3336656.49,
+    "desembolsado": 7725419.4,
+    "saldo": 7506036.34,
+    "vigencia_inicio": "2025-08-15",
+    "vigencia_fim": "2026-10-30",
+    "situacao": "atrasado",
+    "dias_para_vencer": -26,
+    "fonte": "SIMULADO"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -61.506164,
+     -11.974033
+    ]
+   }
+  }
+ ]
+}

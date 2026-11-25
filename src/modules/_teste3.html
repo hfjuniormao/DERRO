@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Diagnóstico do mapa</title>
+    <link rel="stylesheet" href="../styles/tokens.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link rel="stylesheet" href="../styles/map.css" />
+  </head>
+  <body>
+    <div id="mapa" style="height: 400px"></div>
+    <pre id="log"></pre>
+    <script type="module">
+      import { criarMapa } from "../maps/mapview.js";
+      import { CAMADAS } from "../maps/layers.js";
+
+      const log = document.getElementById("log");
+      const escrever = (t) => {
+        log.textContent += `${t}\n`;
+      };
+
+      const controlador = criarMapa(document.getElementById("mapa"), {
+        aoErro: ({ mensagem, erro }) => escrever(`AOERRO: ${mensagem}\n${erro && erro.stack ? erro.stack : erro}\n`),
+        aoMudarEstado: () => escrever("estado mudou\n"),
+      });
+
+      try {
+        await controlador.iniciar();
+        escrever("iniciar OK\n");
+        for (const definicao of CAMADAS.slice(0, 3)) {
+          const camada = await controlador.adicionarCamada(definicao);
+          escrever(`camada ${definicao.id}: ${camada ? "OK" : "FALHOU"}\n`);
+        }
+      } catch (erro) {
+        escrever(`FATAL: ${erro && erro.stack ? erro.stack : erro}\n`);
+      }
+      window.__pronto = true;
+    </script>
+  </body>
+</html>

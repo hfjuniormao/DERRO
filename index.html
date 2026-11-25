@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0B2545" />
+    <meta
+      name="description"
+      content="CENTRAL INFRA RO 360 — Plataforma de Inteligencia Geografica de Infraestrutura e Logistica do Estado de Rondonia."
+    />
+    <meta name="robots" content="index, follow" />
+    <title>CENTRAL INFRA RO 360 — Inteligencia Geografica de Rondonia</title>
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/brasao-ro.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/brasao-ro.svg" />
+
+    <meta property="og:title" content="CENTRAL INFRA RO 360" />
+    <meta
+      property="og:description"
+      content="Inteligencia geografica de infraestrutura e logistica do Estado de Rondonia."
+    />
+    <meta property="og:type" content="website" />
+
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="pular-para-conteudo" href="#conteudo">Pular para o conteudo principal</a>
+
+    <header class="cabecalho" role="banner">
+      <div class="cabecalho__faixa-institucional">
+        <div class="cabecalho__logos" aria-label="Logotipos institucionais">
+          <!-- Logotipos institucionais sao arquivos autorizados: ver assets/README.md -->
+          <img class="logotipo logotipo--governo" src="./assets/brasao-ro.svg" alt="Espaco reservado para o logotipo do Governo de Rondonia" />
+          <img class="logotipo logotipo--der" src="./assets/marca-der-ro.svg" alt="Espaco reservado para o logotipo do DER-RO" />
+          <img class="logotipo logotipo--esri" src="./assets/marca-esri.svg" alt="Espaco reservado para o logotipo da Esri" />
+        </div>
+        <p class="cabecalho__orgao">
+          Secretaria de Estado de Infraestrutura e Logistica &mdash; Governo do Estado de Rondonia
+        </p>
+        <div class="cabecalho__acoes">
+          <span class="cabecalho__status" id="status-dados" aria-live="polite">Carregando dados&hellip;</span>
+          <button class="botao botao--claro" id="btn-area-restrita" type="button">Area restrita</button>
+        </div>
+      </div>
+
+      <div class="cabecalho__barra">
+        <a class="marca" href="#/">
+          <span class="marca__sigla">RO<span>360</span></span>
+          <span class="marca__texto">
+            <strong>CENTRAL INFRA RO 360</strong>
+            <small>Plataforma de Inteligencia Geografica de Infraestrutura e Logistica</small>
+          </span>
+        </a>
+        <button class="botao-icone menu-mobile" id="btn-menu" type="button" aria-expanded="false" aria-controls="navegacao-principal">
+          <span aria-hidden="true">&#9776;</span><span class="visualmente-oculto">Abrir menu</span>
+        </button>
+      </div>
+
+      <nav class="navegacao" id="navegacao-principal" aria-label="Navegacao principal">
+        <ul class="navegacao__lista" id="lista-navegacao"></ul>
+        <form class="busca-global" id="form-busca-global" role="search">
+          <label class="visualmente-oculto" for="busca-global">Pesquisa global</label>
+          <input
+            id="busca-global"
+            name="q"
+            type="search"
+            placeholder="Buscar municipio, rodovia, obra ou contrato"
+            autocomplete="off"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="resultados-busca"
+          />
+          <ul class="busca-global__resultados" id="resultados-busca" role="listbox" hidden></ul>
+        </form>
+      </nav>
+    </header>
+
+    <main id="conteudo" class="conteudo" tabindex="-1"></main>
+
+    <footer class="rodape" role="contentinfo">
+      <div class="rodape__colunas">
+        <div>
+          <h2 class="rodape__titulo">CENTRAL INFRA RO 360</h2>
+          <p class="rodape__texto">
+            Plataforma de inteligencia geografica de infraestrutura e logistica do Estado de Rondonia.
+            Projeto de demonstracao com dados oficiais e bases simuladas identificadas.
+          </p>
+        </div>
+        <div>
+          <h2 class="rodape__titulo">Governo do Estado de Rondonia</h2>
+          <ul class="rodape__lista">
+            <li>DER-RO &mdash; Departamento de Estradas de Rodagem</li>
+            <li>DEOSP &mdash; Obras e Servicos Publicos</li>
+            <li>SEDEC &mdash; Desenvolvimento, Economia e Gestao</li>
+            <li>SEFIN &mdash; Financas</li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="rodape__titulo">Fontes e metodologia</h2>
+          <ul class="rodape__lista">
+            <li><a href="#/dados-abertos">Catalogo de dados abertos</a></li>
+            <li><a href="#/fontes">Catalogo de fontes (REAL / SIMULADO / INDISPONIVEL)</a></li>
+            <li><a href="#/documentacao">Arquitetura, modelo de dados e limitacoes</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="rodape__titulo">Tecnologia</h2>
+          <ul class="rodape__lista">
+            <li>ArcGIS Maps SDK for JavaScript 4.30</li>
+            <li>Vite &middot; ES Modules &middot; Chart.js</li>
+            <li>Mapas base e geocodificacao Esri</li>
+          </ul>
+        </div>
+      </div>
+      <p class="rodape__base">
+        Dados demonstrativos de infraestrutura sao <strong>DADOS SIMULADOS</strong>; limites municipais,
+        malha rodoviaria SNV, populacao e PIB provenem de fontes oficiais (IBGE, DNIT/SNV, Esri).
+        <span id="rodape-ano"></span>
+      </p>
+    </footer>
+
+    <div class="carregando-inicial" id="carregando-inicial" role="status" aria-live="polite">
+      <div class="carregando-inicial__caixa">
+        <span class="giro" aria-hidden="true"></span>
+        <p>Carregando a Central INFRA RO 360&hellip;</p>
+      </div>
+    </div>
+  </body>
+</html>

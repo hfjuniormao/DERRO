@@ -1,0 +1,576 @@
+{
+ "origem": "SIMULADO",
+ "gerado_em": "2026-11-25",
+ "serie": [
+  {
+   "ano": 2019,
+   "mes": 1,
+   "valor": 29515349.04,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 2,
+   "valor": 28136602.24,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 3,
+   "valor": 29708275.89,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 4,
+   "valor": 47846478.53,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 5,
+   "valor": 49547067.36,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 6,
+   "valor": 48704682.68,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 7,
+   "valor": 43249496.39,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 8,
+   "valor": 40193770.08,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 9,
+   "valor": 27783598.9,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 10,
+   "valor": 34547955.43,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 11,
+   "valor": 38012856.47,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2019,
+   "mes": 12,
+   "valor": 29658324.07,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 1,
+   "valor": 31661168.4,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 2,
+   "valor": 38272181.97,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 3,
+   "valor": 38822036.57,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 4,
+   "valor": 50946662.02,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 5,
+   "valor": 50849564.89,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 6,
+   "valor": 31415410.31,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 7,
+   "valor": 54470157.28,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 8,
+   "valor": 39015818.89,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 9,
+   "valor": 51293809.67,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 10,
+   "valor": 55434698.12,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 11,
+   "valor": 45729253.01,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2020,
+   "mes": 12,
+   "valor": 47010722.68,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 1,
+   "valor": 40719280.91,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 2,
+   "valor": 53730107.13,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 3,
+   "valor": 44533665.93,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 4,
+   "valor": 47410096.58,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 5,
+   "valor": 45668681.36,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 6,
+   "valor": 39926496.35,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 7,
+   "valor": 40696307.26,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 8,
+   "valor": 44079722.86,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 9,
+   "valor": 36199871.63,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 10,
+   "valor": 54625057.95,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 11,
+   "valor": 54392103.65,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2021,
+   "mes": 12,
+   "valor": 60056353.3,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 1,
+   "valor": 55033336.7,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 2,
+   "valor": 42663372.32,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 3,
+   "valor": 50218977.59,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 4,
+   "valor": 60711055.5,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 5,
+   "valor": 55148068.51,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 6,
+   "valor": 47169646.67,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 7,
+   "valor": 41349343.2,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 8,
+   "valor": 66682561.73,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 9,
+   "valor": 63052303.34,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 10,
+   "valor": 57452730.53,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 11,
+   "valor": 60939089.08,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2022,
+   "mes": 12,
+   "valor": 45499234.76,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 1,
+   "valor": 50576707.12,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 2,
+   "valor": 45360114.2,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 3,
+   "valor": 47485302.68,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 4,
+   "valor": 50599719.0,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 5,
+   "valor": 42849220.76,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 6,
+   "valor": 60688747.04,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 7,
+   "valor": 63583971.4,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 8,
+   "valor": 62346211.46,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 9,
+   "valor": 42558252.4,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 10,
+   "valor": 48643771.59,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 11,
+   "valor": 75500669.79,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2023,
+   "mes": 12,
+   "valor": 70959223.11,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 1,
+   "valor": 55918044.13,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 2,
+   "valor": 56317191.87,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 3,
+   "valor": 77786189.35,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 4,
+   "valor": 61095927.49,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 5,
+   "valor": 63826127.31,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 6,
+   "valor": 47413410.94,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 7,
+   "valor": 68119026.99,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 8,
+   "valor": 68810884.31,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 9,
+   "valor": 54497279.63,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 10,
+   "valor": 64668196.73,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 11,
+   "valor": 70087858.57,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2024,
+   "mes": 12,
+   "valor": 66384848.38,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 1,
+   "valor": 56060611.62,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 2,
+   "valor": 55572908.57,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 3,
+   "valor": 59526174.6,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 4,
+   "valor": 83205476.12,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 5,
+   "valor": 78649644.84,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 6,
+   "valor": 51172263.67,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 7,
+   "valor": 82150957.5,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 8,
+   "valor": 52792538.3,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 9,
+   "valor": 80794874.24,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 10,
+   "valor": 56661001.63,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 11,
+   "valor": 71155268.98,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2025,
+   "mes": 12,
+   "valor": 77112547.45,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 1,
+   "valor": 95648627.31,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 2,
+   "valor": 77151859.6,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 3,
+   "valor": 96657467.73,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 4,
+   "valor": 78162872.03,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 5,
+   "valor": 70503116.37,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 6,
+   "valor": 94890210.14,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 7,
+   "valor": 80423388.84,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 8,
+   "valor": 73227134.68,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 9,
+   "valor": 92937492.79,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 10,
+   "valor": 55645817.47,
+   "fonte": "SIMULADO"
+  },
+  {
+   "ano": 2026,
+   "mes": 11,
+   "valor": 58270657.92,
+   "fonte": "SIMULADO"
+  }
+ ]
+}

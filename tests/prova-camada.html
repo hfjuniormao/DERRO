@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Prova de carga de camadas (ArcGIS Maps SDK 4.30)</title>
+    <style>
+      body { font-family: monospace; padding: 16px; }
+    </style>
+  </head>
+  <body>
+    <h1>Prova de carga de camadas</h1>
+    <pre id="saida">executando…</pre>
+    <script type="module">
+      import GeoJSONLayer from "@arcgis/core/layers/GeoJSONLayer";
+      import WebTileLayer from "@arcgis/core/layers/WebTileLayer";
+      import TileLayer from "@arcgis/core/layers/TileLayer";
+      import Basemap from "@arcgis/core/Basemap";
+
+      const saida = document.getElementById("saida");
+      const linhas = [];
+      function registrar(texto, ok = true) {
+        linhas.push(`${ok ? "OK  " : "ERRO"} ${texto}`);
+        saida.textContent = linhas.join("\n");
+      }
+
+      const STREETS = "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer";
+
+      // A) WebTileLayer com template do MapServer
+      try {
+        const camada = new WebTileLayer({
+          id: "a",
+          urlTemplate: `${STREETS}/tile/{z}/{y}/{x}`,
+          title: "A",
+        });
+        await camada.load();
+        registrar(`A) WebTileLayer MapServer: carregou (tileInfo=${JSON.stringify(camada.tileInfo?.size)})`);
+      } catch (erro) {
+        registrar(`A) WebTileLayer MapServer: ${erro?.name} / ${erro?.message}`, false);
+      }
+
+      // B) TileLayer com template do MapServer
+      try {
+        const camada = new TileLayer({
+          id: "b",
+          url: `${STREETS}/tile/{z}/{y}/{x}`,
+          title: "B",
+        });
+        await camada.load();
+        registrar(`B) TileLayer MapServer: carregou`);
+      } catch (erro) {
+        registrar(`B) TileLayer MapServer: ${erro?.name} / ${erro?.message}`, false);
+      }
+
+      // C) WebTileLayer apontando para o TileServer (rest endpoint)
+      try {
+        const camada = new WebTileLayer({
+          id: "c",
+          urlTemplate: `${STREETS}/tile/{z}/{y}/{x}`,
+          title: "C",
+          subDomains: ["services"],
+        });
+        await camada.load();
+        registrar(`C) WebTileLayer sem template: carregou`);
+      } catch (erro) {
+        registrar(`C) WebTileLayer sem template: ${erro?.name} / ${erro?.message}`, false);
+      }
+
+      // D) Basemap com WebTileLayer
+      try {
+        const base = new Basemap({
+          baseLayers: [new WebTileLayer({ url: `${STREETS}/tile/{z}/{y}/{x}`, title: "D" })],
+        });
+        registrar(`D) Basemap: criado (baseLayers=${base.baseLayers.length})`);
+      } catch (erro) {
+        registrar(`D) Basemap: ${erro?.name} / ${erro?.message}`, false);
+      }
+
+      window.__prova = linhas.join("\n");
+      saida.textContent = linhas.join("\n");
+    </script>
+  </body>
+</html>

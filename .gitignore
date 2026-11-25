@@ -1,0 +1,40 @@
+# dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# builds
+dist/
+dist-ssr/
+build/
+*.local
+
+# ambiente (contem segredos potenciais)
+.env
+.env.*
+!.env.example
+
+# cache de dados baixados (regerado por scripts/fetch_dados_reais.py)
+scripts/.cache/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# QA
+tests/capturas/
+.pytest_cache/
+
+# editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*

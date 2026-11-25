@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Teste de altura do mapa</title>
+    <link rel="stylesheet" href="../styles/tokens.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link rel="stylesheet" href="../styles/map.css" />
+  </head>
+  <body>
+    <div id="alvo" style="width: 1200px"></div>
+    <script type="module">
+      import { criarInterfaceMapa } from "../components/mapa.js";
+
+      const wrapper = document.createElement("div");
+      document.getElementById("alvo").append(wrapper);
+      const mapa = criarInterfaceMapa(wrapper, { titulo: "Teste" });
+      await mapa.iniciar();
+
+      // Ajuste local: da uma altura definitiva ao mapa
+      const interface_ = wrapper.querySelector(".mapa-interface");
+      const area = wrapper.querySelector(".mapa-area");
+      if (interface_) interface_.style.height = "620px";
+      if (area) {
+        area.style.minHeight = "520px";
+        area.style.height = "520px";
+        area.style.flex = "none";
+      }
+
+      window.__medir = () => ({
+        mapaArea: Math.round(area.getBoundingClientRect().height),
+        interface: Math.round(interface_.getBoundingClientRect().height),
+        canvas: document.querySelector(".mapa-area canvas")
+          ? Math.round(document.querySelector(".mapa-area canvas").getBoundingClientRect().height)
+          : null,
+        body: document.body.scrollHeight,
+      });
+      window.__pronto = true;
+    </script>
+  </body>
+</html>

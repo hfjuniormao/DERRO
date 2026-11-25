@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Teste logistica sem destruicao</title>
+    <link rel="stylesheet" href="../styles/tokens.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
+    <link rel="stylesheet" href="../styles/map.css" />
+  </head>
+  <body>
+    <main id="conteudo" class="conteudo"></main>
+    <script type="module">
+      import { carregarDados } from "../services/data.js";
+      import * as logistica from "./logistica.js";
+
+      window.__erros = [];
+      window.addEventListener("error", (ev) => window.__erros.push(String(ev.message)));
+      window.addEventListener("unhandledrejection", (ev) =>
+        window.__erros.push(String(ev.reason && ev.reason.stack ? ev.reason.stack : ev.reason))
+      );
+
+      await carregarDados();
+      const container = document.getElementById("conteudo");
+      const controle = await logistica.montar(container, {
+        parametros: {},
+        rota: "logistica",
+        navegar: () => {},
+      });
+      window.__controle = controle;
+      await new Promise((r) => setTimeout(r, 6000));
+      window.__pronto = true;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "central-infra-ro-360",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CENTRAL INFRA RO 360 - Plataforma de Inteligencia Geografica de Infraestrutura e Logistica do Estado de Rondonia",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "serve:dist": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "data:real": "python3 scripts/fetch_dados_reais.py",
+    "data:demo": "python3 scripts/gerar_dados_simulados.py",
+    "data:fontes": "python3 scripts/gerar_fontes.py",
+    "data:all": "npm run data:real && npm run data:demo && npm run data:fontes",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:smoke": "python3 tests/smoke_test.py",
+    "lint": "node scripts/checar_estrutura.mjs && node scripts/checar_imports.mjs",
+    "package:zip": "bash scripts/empacotar.sh"
+  },
+  "dependencies": {
+    "@arcgis/core": "4.30.9",
+    "chart.js": "4.6.2"
+  },
+  "devDependencies": {
+    "vite": "7.1.5",
+    "vitest": "^3.2.4"
+  }
+}

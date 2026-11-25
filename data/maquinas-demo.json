@@ -1,0 +1,2667 @@
+{
+ "origem": "SIMULADO",
+ "gerado_em": "2026-11-25",
+ "registros": 140,
+ "maquinas": [
+  {
+   "id": "MAQ-RO-0001",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-252974",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100379,
+   "municipio": "Alto Alegre dos Parecis",
+   "disponibilidade": 0.9130168050047727,
+   "situacao": "operacional",
+   "horas_operacao": 14952,
+   "ultima_manutencao": "2026-05-23",
+   "localizacao": {
+    "lon": -65,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0002",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-186143",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100296,
+   "municipio": "Santa Luzia D'Oeste",
+   "disponibilidade": 0.07763398476852575,
+   "situacao": "inoperante",
+   "horas_operacao": 20201,
+   "ultima_manutencao": "2024-12-07",
+   "localizacao": {
+    "lon": -67,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0003",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-977334",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100296,
+   "municipio": "Santa Luzia D'Oeste",
+   "disponibilidade": 0.8629138664119704,
+   "situacao": "operacional",
+   "horas_operacao": 10658,
+   "ultima_manutencao": "2024-12-26",
+   "localizacao": {
+    "lon": -63,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0004",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-138702",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101476,
+   "municipio": "Primavera de Rondônia",
+   "disponibilidade": 0.8749475654232127,
+   "situacao": "operacional",
+   "horas_operacao": 21904,
+   "ultima_manutencao": "2024-06-27",
+   "localizacao": {
+    "lon": -62,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0005",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-318922",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100700,
+   "municipio": "Campo Novo de Rondônia",
+   "disponibilidade": 0.3140818333683142,
+   "situacao": "afastada",
+   "horas_operacao": 2778,
+   "ultima_manutencao": "2025-09-20",
+   "localizacao": {
+    "lon": -62,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0006",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-387823",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100452,
+   "municipio": "Buritis",
+   "disponibilidade": 0.36147936279226656,
+   "situacao": "afastada",
+   "horas_operacao": 787,
+   "ultima_manutencao": "2025-04-26",
+   "localizacao": {
+    "lon": -65,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0007",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-702813",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100809,
+   "municipio": "Candeias do Jamari",
+   "disponibilidade": 0.4962328387564876,
+   "situacao": "manutencao",
+   "horas_operacao": 6777,
+   "ultima_manutencao": "2025-01-05",
+   "localizacao": {
+    "lon": -69,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0008",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-240744",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100049,
+   "municipio": "Cacoal",
+   "disponibilidade": 0.15932437920037743,
+   "situacao": "inoperante",
+   "horas_operacao": 6249,
+   "ultima_manutencao": "2026-01-18",
+   "localizacao": {
+    "lon": -61,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0009",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-796409",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101450,
+   "municipio": "Parecis",
+   "disponibilidade": 0.4699936910421246,
+   "situacao": "manutencao",
+   "horas_operacao": 16934,
+   "ultima_manutencao": "2026-11-20",
+   "localizacao": {
+    "lon": -66,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0010",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-831700",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1101468,
+   "municipio": "Pimenteiras do Oeste",
+   "disponibilidade": 0.7313916354024617,
+   "situacao": "manutencao",
+   "horas_operacao": 12860,
+   "ultima_manutencao": "2025-10-20",
+   "localizacao": {
+    "lon": -63,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0011",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-539949",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100296,
+   "municipio": "Santa Luzia D'Oeste",
+   "disponibilidade": 0.6987555330840638,
+   "situacao": "manutencao",
+   "horas_operacao": 1145,
+   "ultima_manutencao": "2024-04-08",
+   "localizacao": {
+    "lon": -72,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0012",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-323717",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100015,
+   "municipio": "Alta Floresta D'Oeste",
+   "disponibilidade": 0.4930269219003891,
+   "situacao": "manutencao",
+   "horas_operacao": 6112,
+   "ultima_manutencao": "2026-02-24",
+   "localizacao": {
+    "lon": -70,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0013",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-766544",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100452,
+   "municipio": "Buritis",
+   "disponibilidade": 0.9284256118906665,
+   "situacao": "operacional",
+   "horas_operacao": 6237,
+   "ultima_manutencao": "2024-12-13",
+   "localizacao": {
+    "lon": -61,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0014",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-801829",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101500,
+   "municipio": "Seringueiras",
+   "disponibilidade": 0.171985183355854,
+   "situacao": "afastada",
+   "horas_operacao": 7221,
+   "ultima_manutencao": "2025-04-05",
+   "localizacao": {
+    "lon": -69,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0015",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-592650",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101492,
+   "municipio": "São Francisco do Guaporé",
+   "disponibilidade": 0.0061870112387725105,
+   "situacao": "inoperante",
+   "horas_operacao": 3472,
+   "ultima_manutencao": "2024-01-25",
+   "localizacao": {
+    "lon": -72,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0016",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-791052",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100056,
+   "municipio": "Cerejeiras",
+   "disponibilidade": 0.5600095149025563,
+   "situacao": "manutencao",
+   "horas_operacao": 14310,
+   "ultima_manutencao": "2026-01-18",
+   "localizacao": {
+    "lon": -66,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0017",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-413557",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100023,
+   "municipio": "Ariquemes",
+   "disponibilidade": 0.9075496674027945,
+   "situacao": "operacional",
+   "horas_operacao": 17962,
+   "ultima_manutencao": "2025-10-17",
+   "localizacao": {
+    "lon": -71,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0018",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-145732",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101302,
+   "municipio": "Mirante da Serra",
+   "disponibilidade": 0.5913667383183963,
+   "situacao": "manutencao",
+   "horas_operacao": 16583,
+   "ultima_manutencao": "2025-01-21",
+   "localizacao": {
+    "lon": -63,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0019",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-226575",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100601,
+   "municipio": "Cacaulândia",
+   "disponibilidade": 0.9545416438547939,
+   "situacao": "operacional",
+   "horas_operacao": 4786,
+   "ultima_manutencao": "2024-09-05",
+   "localizacao": {
+    "lon": -65,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0020",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-995182",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101203,
+   "municipio": "Ministro Andreazza",
+   "disponibilidade": 0.9592586570306791,
+   "situacao": "operacional",
+   "horas_operacao": 11624,
+   "ultima_manutencao": "2025-10-15",
+   "localizacao": {
+    "lon": -67,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0021",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-548012",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101401,
+   "municipio": "Monte Negro",
+   "disponibilidade": 0.9574292296631332,
+   "situacao": "operacional",
+   "horas_operacao": 2821,
+   "ultima_manutencao": "2025-08-05",
+   "localizacao": {
+    "lon": -70,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0022",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-737471",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100122,
+   "municipio": "Ji-Paraná",
+   "disponibilidade": 0.3200902534668538,
+   "situacao": "afastada",
+   "horas_operacao": 8436,
+   "ultima_manutencao": "2024-01-19",
+   "localizacao": {
+    "lon": -71,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0023",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-143086",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100205,
+   "municipio": "Porto Velho",
+   "disponibilidade": 0.3920685229394171,
+   "situacao": "manutencao",
+   "horas_operacao": 12009,
+   "ultima_manutencao": "2026-04-29",
+   "localizacao": {
+    "lon": -64,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0024",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-678868",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100304,
+   "municipio": "Vilhena",
+   "disponibilidade": 0.9612753442108005,
+   "situacao": "operacional",
+   "horas_operacao": 18278,
+   "ultima_manutencao": "2025-08-22",
+   "localizacao": {
+    "lon": -69,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0025",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-464088",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100379,
+   "municipio": "Alto Alegre dos Parecis",
+   "disponibilidade": 0.8945380743632663,
+   "situacao": "operacional",
+   "horas_operacao": 14224,
+   "ultima_manutencao": "2026-11-24",
+   "localizacao": {
+    "lon": -69,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0026",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-740457",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101468,
+   "municipio": "Pimenteiras do Oeste",
+   "disponibilidade": 0.8512387560063664,
+   "situacao": "operacional",
+   "horas_operacao": 19707,
+   "ultima_manutencao": "2025-08-17",
+   "localizacao": {
+    "lon": -66,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0027",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-538976",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100452,
+   "municipio": "Buritis",
+   "disponibilidade": 0.8865515102113636,
+   "situacao": "operacional",
+   "horas_operacao": 15126,
+   "ultima_manutencao": "2026-05-02",
+   "localizacao": {
+    "lon": -60,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0028",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-920295",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100403,
+   "municipio": "Alto Paraíso",
+   "disponibilidade": 0.8816342679410663,
+   "situacao": "operacional",
+   "horas_operacao": 1454,
+   "ultima_manutencao": "2024-07-03",
+   "localizacao": {
+    "lon": -70,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0029",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-512621",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100320,
+   "municipio": "São Miguel do Guaporé",
+   "disponibilidade": 0.19310792721514639,
+   "situacao": "inoperante",
+   "horas_operacao": 21150,
+   "ultima_manutencao": "2026-10-22",
+   "localizacao": {
+    "lon": -68,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0030",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-797811",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101401,
+   "municipio": "Monte Negro",
+   "disponibilidade": 0.7431637295810716,
+   "situacao": "manutencao",
+   "horas_operacao": 8680,
+   "ultima_manutencao": "2024-09-26",
+   "localizacao": {
+    "lon": -61,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0031",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-947108",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100452,
+   "municipio": "Buritis",
+   "disponibilidade": 0.9354944084108985,
+   "situacao": "operacional",
+   "horas_operacao": 17623,
+   "ultima_manutencao": "2025-11-24",
+   "localizacao": {
+    "lon": -69,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0032",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-478063",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100130,
+   "municipio": "Machadinho D'Oeste",
+   "disponibilidade": 0.09520264442843157,
+   "situacao": "inoperante",
+   "horas_operacao": 4085,
+   "ultima_manutencao": "2026-02-25",
+   "localizacao": {
+    "lon": -67,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0033",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-329967",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101005,
+   "municipio": "Governador Jorge Teixeira",
+   "disponibilidade": 0.9131784305148477,
+   "situacao": "operacional",
+   "horas_operacao": 17044,
+   "ultima_manutencao": "2024-11-18",
+   "localizacao": {
+    "lon": -60,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0034",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-520029",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100320,
+   "municipio": "São Miguel do Guaporé",
+   "disponibilidade": 0.11307606664675322,
+   "situacao": "inoperante",
+   "horas_operacao": 9213,
+   "ultima_manutencao": "2026-07-22",
+   "localizacao": {
+    "lon": -64,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0035",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-893088",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100288,
+   "municipio": "Rolim de Moura",
+   "disponibilidade": 0.8717362146910375,
+   "situacao": "operacional",
+   "horas_operacao": 11788,
+   "ultima_manutencao": "2026-11-21",
+   "localizacao": {
+    "lon": -73,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0036",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-732130",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101484,
+   "municipio": "São Felipe D'Oeste",
+   "disponibilidade": 0.49737616219902026,
+   "situacao": "afastada",
+   "horas_operacao": 14935,
+   "ultima_manutencao": "2024-10-30",
+   "localizacao": {
+    "lon": -69,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0037",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-949767",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100908,
+   "municipio": "Castanheiras",
+   "disponibilidade": 0.9550402739743413,
+   "situacao": "operacional",
+   "horas_operacao": 2256,
+   "ultima_manutencao": "2026-09-14",
+   "localizacao": {
+    "lon": -73,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0038",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-609612",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101203,
+   "municipio": "Ministro Andreazza",
+   "disponibilidade": 0.40418417683244406,
+   "situacao": "manutencao",
+   "horas_operacao": 15513,
+   "ultima_manutencao": "2024-07-01",
+   "localizacao": {
+    "lon": -73,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0039",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-274135",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1101401,
+   "municipio": "Monte Negro",
+   "disponibilidade": 0.8806083722339176,
+   "situacao": "operacional",
+   "horas_operacao": 16325,
+   "ultima_manutencao": "2026-05-06",
+   "localizacao": {
+    "lon": -66,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0040",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-374054",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101468,
+   "municipio": "Pimenteiras do Oeste",
+   "disponibilidade": 0.4279245131946645,
+   "situacao": "afastada",
+   "horas_operacao": 16153,
+   "ultima_manutencao": "2024-10-06",
+   "localizacao": {
+    "lon": -69,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0041",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-512845",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100049,
+   "municipio": "Cacoal",
+   "disponibilidade": 0.9397418906514721,
+   "situacao": "operacional",
+   "horas_operacao": 18878,
+   "ultima_manutencao": "2024-08-02",
+   "localizacao": {
+    "lon": -71,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0042",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-915160",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100015,
+   "municipio": "Alta Floresta D'Oeste",
+   "disponibilidade": 0.8219503642031842,
+   "situacao": "operacional",
+   "horas_operacao": 4046,
+   "ultima_manutencao": "2024-04-19",
+   "localizacao": {
+    "lon": -63,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0043",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-228596",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100940,
+   "municipio": "Cujubim",
+   "disponibilidade": 0.8705070228844722,
+   "situacao": "operacional",
+   "horas_operacao": 17277,
+   "ultima_manutencao": "2026-06-17",
+   "localizacao": {
+    "lon": -70,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0044",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-746567",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100809,
+   "municipio": "Candeias do Jamari",
+   "disponibilidade": 0.868915793320373,
+   "situacao": "operacional",
+   "horas_operacao": 10554,
+   "ultima_manutencao": "2025-03-11",
+   "localizacao": {
+    "lon": -62,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0045",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-749270",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101484,
+   "municipio": "São Felipe D'Oeste",
+   "disponibilidade": 0.8577516375683779,
+   "situacao": "operacional",
+   "horas_operacao": 12926,
+   "ultima_manutencao": "2026-02-20",
+   "localizacao": {
+    "lon": -69,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0046",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-638083",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101559,
+   "municipio": "Teixeirópolis",
+   "disponibilidade": 0.9076808889031588,
+   "situacao": "operacional",
+   "horas_operacao": 10131,
+   "ultima_manutencao": "2026-08-19",
+   "localizacao": {
+    "lon": -73,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0047",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-625214",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100098,
+   "municipio": "Espigão D'Oeste",
+   "disponibilidade": 0.8536285728902382,
+   "situacao": "operacional",
+   "horas_operacao": 10324,
+   "ultima_manutencao": "2026-03-01",
+   "localizacao": {
+    "lon": -67,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0048",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-906442",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101302,
+   "municipio": "Mirante da Serra",
+   "disponibilidade": 0.9196586412058969,
+   "situacao": "operacional",
+   "horas_operacao": 18756,
+   "ultima_manutencao": "2025-10-18",
+   "localizacao": {
+    "lon": -69,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0049",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-458117",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100338,
+   "municipio": "Nova Mamoré",
+   "disponibilidade": 0.9158772832991728,
+   "situacao": "operacional",
+   "horas_operacao": 9839,
+   "ultima_manutencao": "2025-09-18",
+   "localizacao": {
+    "lon": -72,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0050",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-277963",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100346,
+   "municipio": "Alvorada D'Oeste",
+   "disponibilidade": 0.9580814138430269,
+   "situacao": "operacional",
+   "horas_operacao": 19993,
+   "ultima_manutencao": "2024-06-03",
+   "localizacao": {
+    "lon": -62,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0051",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-575398",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100452,
+   "municipio": "Buritis",
+   "disponibilidade": 0.8899349254020467,
+   "situacao": "operacional",
+   "horas_operacao": 1766,
+   "ultima_manutencao": "2024-10-11",
+   "localizacao": {
+    "lon": -64,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0052",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-205274",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100296,
+   "municipio": "Santa Luzia D'Oeste",
+   "disponibilidade": 0.8794188933323344,
+   "situacao": "operacional",
+   "horas_operacao": 17786,
+   "ultima_manutencao": "2025-05-11",
+   "localizacao": {
+    "lon": -68,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0053",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-340179",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100288,
+   "municipio": "Rolim de Moura",
+   "disponibilidade": 0.9602189039522987,
+   "situacao": "operacional",
+   "horas_operacao": 20242,
+   "ultima_manutencao": "2024-09-24",
+   "localizacao": {
+    "lon": -65,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0054",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-692662",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1101807,
+   "municipio": "Vale do Paraíso",
+   "disponibilidade": 0.961764483648626,
+   "situacao": "operacional",
+   "horas_operacao": 7632,
+   "ultima_manutencao": "2026-07-05",
+   "localizacao": {
+    "lon": -73,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0055",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-235777",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100700,
+   "municipio": "Campo Novo de Rondônia",
+   "disponibilidade": 0.9237885841186829,
+   "situacao": "operacional",
+   "horas_operacao": 1827,
+   "ultima_manutencao": "2025-02-24",
+   "localizacao": {
+    "lon": -66,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0056",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-711262",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100940,
+   "municipio": "Cujubim",
+   "disponibilidade": 0.8649902014469305,
+   "situacao": "operacional",
+   "horas_operacao": 3927,
+   "ultima_manutencao": "2024-03-12",
+   "localizacao": {
+    "lon": -67,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0057",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-635550",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101104,
+   "municipio": "Itapuã do Oeste",
+   "disponibilidade": 0.4476798582770032,
+   "situacao": "afastada",
+   "horas_operacao": 4282,
+   "ultima_manutencao": "2025-09-24",
+   "localizacao": {
+    "lon": -72,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0058",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-230816",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100601,
+   "municipio": "Cacaulândia",
+   "disponibilidade": 0.8517786578764504,
+   "situacao": "operacional",
+   "horas_operacao": 13072,
+   "ultima_manutencao": "2025-02-04",
+   "localizacao": {
+    "lon": -63,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0059",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-195190",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101302,
+   "municipio": "Mirante da Serra",
+   "disponibilidade": 0.37694155601221996,
+   "situacao": "manutencao",
+   "horas_operacao": 19268,
+   "ultima_manutencao": "2025-01-24",
+   "localizacao": {
+    "lon": -68,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0060",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-134643",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100080,
+   "municipio": "Costa Marques",
+   "disponibilidade": 0.3198220720832293,
+   "situacao": "manutencao",
+   "horas_operacao": 9602,
+   "ultima_manutencao": "2025-03-13",
+   "localizacao": {
+    "lon": -66,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0061",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-634611",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100908,
+   "municipio": "Castanheiras",
+   "disponibilidade": 0.5466059092045705,
+   "situacao": "manutencao",
+   "horas_operacao": 4174,
+   "ultima_manutencao": "2025-05-24",
+   "localizacao": {
+    "lon": -69,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0062",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-286608",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100122,
+   "municipio": "Ji-Paraná",
+   "disponibilidade": 0.8250015727976829,
+   "situacao": "operacional",
+   "horas_operacao": 12103,
+   "ultima_manutencao": "2025-09-28",
+   "localizacao": {
+    "lon": -64,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0063",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-875479",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100304,
+   "municipio": "Vilhena",
+   "disponibilidade": 0.37984150158922775,
+   "situacao": "manutencao",
+   "horas_operacao": 21014,
+   "ultima_manutencao": "2024-06-30",
+   "localizacao": {
+    "lon": -67,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0064",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-547876",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101484,
+   "municipio": "São Felipe D'Oeste",
+   "disponibilidade": 0.8569052368981319,
+   "situacao": "operacional",
+   "horas_operacao": 18508,
+   "ultima_manutencao": "2026-04-07",
+   "localizacao": {
+    "lon": -61,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0065",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-693506",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100304,
+   "municipio": "Vilhena",
+   "disponibilidade": 0.7076643342695736,
+   "situacao": "manutencao",
+   "horas_operacao": 4437,
+   "ultima_manutencao": "2026-07-26",
+   "localizacao": {
+    "lon": -61,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0066",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-822510",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100346,
+   "municipio": "Alvorada D'Oeste",
+   "disponibilidade": 0.3404526928773493,
+   "situacao": "manutencao",
+   "horas_operacao": 21778,
+   "ultima_manutencao": "2024-10-09",
+   "localizacao": {
+    "lon": -73,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0067",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-537421",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100601,
+   "municipio": "Cacaulândia",
+   "disponibilidade": 0.7451384124872447,
+   "situacao": "manutencao",
+   "horas_operacao": 8891,
+   "ultima_manutencao": "2026-03-13",
+   "localizacao": {
+    "lon": -68,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0068",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-977096",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100015,
+   "municipio": "Alta Floresta D'Oeste",
+   "disponibilidade": 0.9790463989837919,
+   "situacao": "operacional",
+   "horas_operacao": 13154,
+   "ultima_manutencao": "2026-04-20",
+   "localizacao": {
+    "lon": -61,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0069",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-976922",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100098,
+   "municipio": "Espigão D'Oeste",
+   "disponibilidade": 0.8200681599355895,
+   "situacao": "operacional",
+   "horas_operacao": 3594,
+   "ultima_manutencao": "2024-09-13",
+   "localizacao": {
+    "lon": -72,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0070",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-781093",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1101435,
+   "municipio": "Nova União",
+   "disponibilidade": 0.830352423275863,
+   "situacao": "operacional",
+   "horas_operacao": 17369,
+   "ultima_manutencao": "2026-01-31",
+   "localizacao": {
+    "lon": -65,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0071",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-449801",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100452,
+   "municipio": "Buritis",
+   "disponibilidade": 0.18006841771764515,
+   "situacao": "inoperante",
+   "horas_operacao": 7680,
+   "ultima_manutencao": "2026-11-22",
+   "localizacao": {
+    "lon": -64,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0072",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-795517",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100320,
+   "municipio": "São Miguel do Guaporé",
+   "disponibilidade": 0.9401115071095449,
+   "situacao": "operacional",
+   "horas_operacao": 20624,
+   "ultima_manutencao": "2026-08-17",
+   "localizacao": {
+    "lon": -68,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0073",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-684834",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101450,
+   "municipio": "Parecis",
+   "disponibilidade": 0.8208949667093743,
+   "situacao": "operacional",
+   "horas_operacao": 14103,
+   "ultima_manutencao": "2025-12-07",
+   "localizacao": {
+    "lon": -67,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0074",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-830501",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100023,
+   "municipio": "Ariquemes",
+   "disponibilidade": 0.850303767558332,
+   "situacao": "operacional",
+   "horas_operacao": 12225,
+   "ultima_manutencao": "2024-03-13",
+   "localizacao": {
+    "lon": -67,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0075",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-392096",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101484,
+   "municipio": "São Felipe D'Oeste",
+   "disponibilidade": 0.9499700787057797,
+   "situacao": "operacional",
+   "horas_operacao": 12063,
+   "ultima_manutencao": "2025-07-11",
+   "localizacao": {
+    "lon": -70,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0076",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-719717",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101302,
+   "municipio": "Mirante da Serra",
+   "disponibilidade": 0.2732692679713975,
+   "situacao": "afastada",
+   "horas_operacao": 13008,
+   "ultima_manutencao": "2026-07-16",
+   "localizacao": {
+    "lon": -70,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0077",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-538398",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100700,
+   "municipio": "Campo Novo de Rondônia",
+   "disponibilidade": 0.8741469967096546,
+   "situacao": "operacional",
+   "horas_operacao": 6178,
+   "ultima_manutencao": "2024-05-04",
+   "localizacao": {
+    "lon": -61,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0078",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-918952",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1101468,
+   "municipio": "Pimenteiras do Oeste",
+   "disponibilidade": 0.8700397901780857,
+   "situacao": "operacional",
+   "horas_operacao": 2867,
+   "ultima_manutencao": "2024-08-04",
+   "localizacao": {
+    "lon": -64,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0079",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-733730",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100502,
+   "municipio": "Novo Horizonte do Oeste",
+   "disponibilidade": 0.739677857999051,
+   "situacao": "manutencao",
+   "horas_operacao": 14902,
+   "ultima_manutencao": "2024-01-08",
+   "localizacao": {
+    "lon": -72,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0080",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-659093",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100015,
+   "municipio": "Alta Floresta D'Oeste",
+   "disponibilidade": 0.9433455038644598,
+   "situacao": "operacional",
+   "horas_operacao": 13388,
+   "ultima_manutencao": "2024-01-05",
+   "localizacao": {
+    "lon": -69,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0081",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-652436",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100098,
+   "municipio": "Espigão D'Oeste",
+   "disponibilidade": 0.9899260557874653,
+   "situacao": "operacional",
+   "horas_operacao": 8518,
+   "ultima_manutencao": "2026-03-21",
+   "localizacao": {
+    "lon": -66,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0082",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-700551",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100106,
+   "municipio": "Guajará-Mirim",
+   "disponibilidade": 0.9006475709386823,
+   "situacao": "operacional",
+   "horas_operacao": 9872,
+   "ultima_manutencao": "2026-02-15",
+   "localizacao": {
+    "lon": -66,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0083",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-622192",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100072,
+   "municipio": "Corumbiara",
+   "disponibilidade": 0.9890221986975039,
+   "situacao": "operacional",
+   "horas_operacao": 6088,
+   "ultima_manutencao": "2025-10-16",
+   "localizacao": {
+    "lon": -72,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0084",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-278031",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100304,
+   "municipio": "Vilhena",
+   "disponibilidade": 0.9670496424755498,
+   "situacao": "operacional",
+   "horas_operacao": 3535,
+   "ultima_manutencao": "2025-03-23",
+   "localizacao": {
+    "lon": -62,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0085",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-279661",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101450,
+   "municipio": "Parecis",
+   "disponibilidade": 0.9212048538700753,
+   "situacao": "operacional",
+   "horas_operacao": 14936,
+   "ultima_manutencao": "2026-09-17",
+   "localizacao": {
+    "lon": -63,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0086",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-458120",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101401,
+   "municipio": "Monte Negro",
+   "disponibilidade": 0.8289214585858093,
+   "situacao": "operacional",
+   "horas_operacao": 18333,
+   "ultima_manutencao": "2026-06-13",
+   "localizacao": {
+    "lon": -68,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0087",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-547649",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100080,
+   "municipio": "Costa Marques",
+   "disponibilidade": 0.8739209668944875,
+   "situacao": "operacional",
+   "horas_operacao": 7815,
+   "ultima_manutencao": "2025-01-03",
+   "localizacao": {
+    "lon": -72,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0088",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-881152",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101435,
+   "municipio": "Nova União",
+   "disponibilidade": 0.7143616758642097,
+   "situacao": "manutencao",
+   "horas_operacao": 9875,
+   "ultima_manutencao": "2025-04-01",
+   "localizacao": {
+    "lon": -69,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0089",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-992661",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100452,
+   "municipio": "Buritis",
+   "disponibilidade": 0.7071228010937936,
+   "situacao": "manutencao",
+   "horas_operacao": 501,
+   "ultima_manutencao": "2026-11-20",
+   "localizacao": {
+    "lon": -71,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0090",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-671738",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100155,
+   "municipio": "Ouro Preto do Oeste",
+   "disponibilidade": 0.39607992330718017,
+   "situacao": "manutencao",
+   "horas_operacao": 17397,
+   "ultima_manutencao": "2024-02-25",
+   "localizacao": {
+    "lon": -63,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0091",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-713910",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100056,
+   "municipio": "Cerejeiras",
+   "disponibilidade": 0.10581441921744209,
+   "situacao": "inoperante",
+   "horas_operacao": 18703,
+   "ultima_manutencao": "2026-04-01",
+   "localizacao": {
+    "lon": -62,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0092",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-158795",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100122,
+   "municipio": "Ji-Paraná",
+   "disponibilidade": 0.30493922896566256,
+   "situacao": "manutencao",
+   "horas_operacao": 5201,
+   "ultima_manutencao": "2026-09-20",
+   "localizacao": {
+    "lon": -71,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0093",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-814345",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101476,
+   "municipio": "Primavera de Rondônia",
+   "disponibilidade": 0.966572006232643,
+   "situacao": "operacional",
+   "horas_operacao": 18578,
+   "ultima_manutencao": "2025-01-14",
+   "localizacao": {
+    "lon": -64,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0094",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-579819",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100064,
+   "municipio": "Colorado do Oeste",
+   "disponibilidade": 0.9774364521391091,
+   "situacao": "operacional",
+   "horas_operacao": 15323,
+   "ultima_manutencao": "2025-11-29",
+   "localizacao": {
+    "lon": -68,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0095",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-343186",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101450,
+   "municipio": "Parecis",
+   "disponibilidade": 0.8743766312624882,
+   "situacao": "operacional",
+   "horas_operacao": 7285,
+   "ultima_manutencao": "2025-09-03",
+   "localizacao": {
+    "lon": -66,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0096",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-243022",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100015,
+   "municipio": "Alta Floresta D'Oeste",
+   "disponibilidade": 0.9229264528638899,
+   "situacao": "operacional",
+   "horas_operacao": 20720,
+   "ultima_manutencao": "2025-09-01",
+   "localizacao": {
+    "lon": -62,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0097",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-783847",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100148,
+   "municipio": "Nova Brasilândia D'Oeste",
+   "disponibilidade": 0.9854783819057141,
+   "situacao": "operacional",
+   "horas_operacao": 9020,
+   "ultima_manutencao": "2026-10-07",
+   "localizacao": {
+    "lon": -73,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0098",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-557443",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100502,
+   "municipio": "Novo Horizonte do Oeste",
+   "disponibilidade": 0.7040731908165551,
+   "situacao": "manutencao",
+   "horas_operacao": 3773,
+   "ultima_manutencao": "2024-05-16",
+   "localizacao": {
+    "lon": -73,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0099",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-692228",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101807,
+   "municipio": "Vale do Paraíso",
+   "disponibilidade": 0.8264658607982018,
+   "situacao": "operacional",
+   "horas_operacao": 11795,
+   "ultima_manutencao": "2025-08-23",
+   "localizacao": {
+    "lon": -68,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0100",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-191697",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100148,
+   "municipio": "Nova Brasilândia D'Oeste",
+   "disponibilidade": 0.9542776970365638,
+   "situacao": "operacional",
+   "horas_operacao": 8887,
+   "ultima_manutencao": "2025-06-21",
+   "localizacao": {
+    "lon": -70,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0101",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-780377",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101757,
+   "municipio": "Vale do Anari",
+   "disponibilidade": 0.4839995557240863,
+   "situacao": "manutencao",
+   "horas_operacao": 17580,
+   "ultima_manutencao": "2026-01-30",
+   "localizacao": {
+    "lon": -70,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0102",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-698187",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100262,
+   "municipio": "Rio Crespo",
+   "disponibilidade": 0.9274485271452647,
+   "situacao": "operacional",
+   "horas_operacao": 2302,
+   "ultima_manutencao": "2025-05-28",
+   "localizacao": {
+    "lon": -64,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0103",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-622353",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100502,
+   "municipio": "Novo Horizonte do Oeste",
+   "disponibilidade": 0.5505048738668221,
+   "situacao": "manutencao",
+   "horas_operacao": 15450,
+   "ultima_manutencao": "2024-01-13",
+   "localizacao": {
+    "lon": -69,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0104",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-896954",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100254,
+   "municipio": "Presidente Médici",
+   "disponibilidade": 0.005370865592106866,
+   "situacao": "inoperante",
+   "horas_operacao": 6025,
+   "ultima_manutencao": "2026-05-26",
+   "localizacao": {
+    "lon": -70,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0105",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-386863",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100080,
+   "municipio": "Costa Marques",
+   "disponibilidade": 0.8901642668087324,
+   "situacao": "operacional",
+   "horas_operacao": 10570,
+   "ultima_manutencao": "2024-05-31",
+   "localizacao": {
+    "lon": -68,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0106",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-433903",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100502,
+   "municipio": "Novo Horizonte do Oeste",
+   "disponibilidade": 0.9440062137365529,
+   "situacao": "operacional",
+   "horas_operacao": 15848,
+   "ultima_manutencao": "2026-11-12",
+   "localizacao": {
+    "lon": -72,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0107",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-210615",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100338,
+   "municipio": "Nova Mamoré",
+   "disponibilidade": 0.9185240992806691,
+   "situacao": "operacional",
+   "horas_operacao": 1366,
+   "ultima_manutencao": "2026-03-20",
+   "localizacao": {
+    "lon": -72,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0108",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-398811",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100403,
+   "municipio": "Alto Paraíso",
+   "disponibilidade": 0.0939815103431742,
+   "situacao": "inoperante",
+   "horas_operacao": 12356,
+   "ultima_manutencao": "2026-04-17",
+   "localizacao": {
+    "lon": -61,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0109",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-158573",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100908,
+   "municipio": "Castanheiras",
+   "disponibilidade": 0.8444895688292299,
+   "situacao": "operacional",
+   "horas_operacao": 14567,
+   "ultima_manutencao": "2024-12-06",
+   "localizacao": {
+    "lon": -70,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0110",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-822383",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101484,
+   "municipio": "São Felipe D'Oeste",
+   "disponibilidade": 0.2911264347184483,
+   "situacao": "inoperante",
+   "horas_operacao": 14222,
+   "ultima_manutencao": "2025-02-04",
+   "localizacao": {
+    "lon": -65,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0111",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-490465",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100189,
+   "municipio": "Pimenta Bueno",
+   "disponibilidade": 0.9006284063319293,
+   "situacao": "operacional",
+   "horas_operacao": 9464,
+   "ultima_manutencao": "2026-10-26",
+   "localizacao": {
+    "lon": -65,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0112",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-221443",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100296,
+   "municipio": "Santa Luzia D'Oeste",
+   "disponibilidade": 0.9454861902720322,
+   "situacao": "operacional",
+   "horas_operacao": 2771,
+   "ultima_manutencao": "2024-06-08",
+   "localizacao": {
+    "lon": -65,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0113",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-150412",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100205,
+   "municipio": "Porto Velho",
+   "disponibilidade": 0.9883387176494352,
+   "situacao": "operacional",
+   "horas_operacao": 7226,
+   "ultima_manutencao": "2026-06-10",
+   "localizacao": {
+    "lon": -64,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0114",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-421253",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100049,
+   "municipio": "Cacoal",
+   "disponibilidade": 0.6566541185266985,
+   "situacao": "manutencao",
+   "horas_operacao": 2600,
+   "ultima_manutencao": "2026-08-15",
+   "localizacao": {
+    "lon": -63,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0115",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-530090",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100205,
+   "municipio": "Porto Velho",
+   "disponibilidade": 0.9015317309892241,
+   "situacao": "operacional",
+   "horas_operacao": 18920,
+   "ultima_manutencao": "2025-04-18",
+   "localizacao": {
+    "lon": -68,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0116",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-999334",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100072,
+   "municipio": "Corumbiara",
+   "disponibilidade": 0.8415156555492402,
+   "situacao": "operacional",
+   "horas_operacao": 18207,
+   "ultima_manutencao": "2024-02-19",
+   "localizacao": {
+    "lon": -69,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0117",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-776300",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101401,
+   "municipio": "Monte Negro",
+   "disponibilidade": 0.9585704410654692,
+   "situacao": "operacional",
+   "horas_operacao": 5573,
+   "ultima_manutencao": "2025-03-02",
+   "localizacao": {
+    "lon": -69,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0118",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-236563",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1101401,
+   "municipio": "Monte Negro",
+   "disponibilidade": 0.18305917949196077,
+   "situacao": "afastada",
+   "horas_operacao": 13716,
+   "ultima_manutencao": "2025-05-22",
+   "localizacao": {
+    "lon": -71,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0119",
+   "tipo": "empilhadeira",
+   "tipo_nome": "Empilhadeira",
+   "patrimonial": "RO-911802",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1101757,
+   "municipio": "Vale do Anari",
+   "disponibilidade": 0.9865344992446304,
+   "situacao": "operacional",
+   "horas_operacao": 19673,
+   "ultima_manutencao": "2025-10-04",
+   "localizacao": {
+    "lon": -62,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0120",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-852091",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100338,
+   "municipio": "Nova Mamoré",
+   "disponibilidade": 0.395682065944977,
+   "situacao": "manutencao",
+   "horas_operacao": 5847,
+   "ultima_manutencao": "2024-07-05",
+   "localizacao": {
+    "lon": -67,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0121",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-355709",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100262,
+   "municipio": "Rio Crespo",
+   "disponibilidade": 0.9085858594888017,
+   "situacao": "operacional",
+   "horas_operacao": 12527,
+   "ultima_manutencao": "2024-12-04",
+   "localizacao": {
+    "lon": -62,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0122",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-816164",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100056,
+   "municipio": "Cerejeiras",
+   "disponibilidade": 0.4133325685087551,
+   "situacao": "manutencao",
+   "horas_operacao": 7015,
+   "ultima_manutencao": "2025-07-12",
+   "localizacao": {
+    "lon": -61,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0123",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-245319",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100072,
+   "municipio": "Corumbiara",
+   "disponibilidade": 0.9282002807613413,
+   "situacao": "operacional",
+   "horas_operacao": 2842,
+   "ultima_manutencao": "2025-05-27",
+   "localizacao": {
+    "lon": -73,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0124",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-629698",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101302,
+   "municipio": "Mirante da Serra",
+   "disponibilidade": 0.30945137731717653,
+   "situacao": "manutencao",
+   "horas_operacao": 12368,
+   "ultima_manutencao": "2024-06-12",
+   "localizacao": {
+    "lon": -64,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0125",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-232533",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1100304,
+   "municipio": "Vilhena",
+   "disponibilidade": 0.9272216913896918,
+   "situacao": "operacional",
+   "horas_operacao": 18739,
+   "ultima_manutencao": "2025-05-30",
+   "localizacao": {
+    "lon": -65,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0126",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-861139",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1100098,
+   "municipio": "Espigão D'Oeste",
+   "disponibilidade": 0.676714824280916,
+   "situacao": "manutencao",
+   "horas_operacao": 2044,
+   "ultima_manutencao": "2026-07-10",
+   "localizacao": {
+    "lon": -64,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0127",
+   "tipo": "compactador",
+   "tipo_nome": "Rolo compactador",
+   "patrimonial": "RO-381302",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1100049,
+   "municipio": "Cacoal",
+   "disponibilidade": 0.33516376833359424,
+   "situacao": "manutencao",
+   "horas_operacao": 1245,
+   "ultima_manutencao": "2025-05-17",
+   "localizacao": {
+    "lon": -66,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0128",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-316181",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101484,
+   "municipio": "São Felipe D'Oeste",
+   "disponibilidade": 0.05387526718165849,
+   "situacao": "inoperante",
+   "horas_operacao": 8560,
+   "ultima_manutencao": "2026-08-12",
+   "localizacao": {
+    "lon": -65,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0129",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-138109",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101104,
+   "municipio": "Itapuã do Oeste",
+   "disponibilidade": 0.908402112265671,
+   "situacao": "operacional",
+   "horas_operacao": 5649,
+   "ultima_manutencao": "2024-11-11",
+   "localizacao": {
+    "lon": -66,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0130",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-149975",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1101203,
+   "municipio": "Ministro Andreazza",
+   "disponibilidade": 0.9385991860086846,
+   "situacao": "operacional",
+   "horas_operacao": 7999,
+   "ultima_manutencao": "2024-01-23",
+   "localizacao": {
+    "lon": -61,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0131",
+   "tipo": "escavadeira",
+   "tipo_nome": "Escavadeira hidraulica",
+   "patrimonial": "RO-960218",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100262,
+   "municipio": "Rio Crespo",
+   "disponibilidade": 0.9800527088104759,
+   "situacao": "operacional",
+   "horas_operacao": 13067,
+   "ultima_manutencao": "2025-04-30",
+   "localizacao": {
+    "lon": -72,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0132",
+   "tipo": "planta_concreto",
+   "tipo_nome": "Planta de concreto",
+   "patrimonial": "RO-517148",
+   "unidade_responsavel": "UR-Ji-Parana",
+   "municipio_codigo": 1101401,
+   "municipio": "Monte Negro",
+   "disponibilidade": 0.9240021574585391,
+   "situacao": "operacional",
+   "horas_operacao": 12228,
+   "ultima_manutencao": "2024-03-10",
+   "localizacao": {
+    "lon": -70,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0133",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-217267",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1100601,
+   "municipio": "Cacaulândia",
+   "disponibilidade": 0.1359612787979278,
+   "situacao": "inoperante",
+   "horas_operacao": 12653,
+   "ultima_manutencao": "2025-01-29",
+   "localizacao": {
+    "lon": -71,
+    "lat": -9
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0134",
+   "tipo": "usina_asfalto",
+   "tipo_nome": "Usina de asfalto",
+   "patrimonial": "RO-662040",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100940,
+   "municipio": "Cujubim",
+   "disponibilidade": 0.9729163285370378,
+   "situacao": "operacional",
+   "horas_operacao": 11721,
+   "ultima_manutencao": "2024-07-13",
+   "localizacao": {
+    "lon": -69,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0135",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-702351",
+   "unidade_responsavel": "UR-Rolim de Moura",
+   "municipio_codigo": 1101708,
+   "municipio": "Urupá",
+   "disponibilidade": 0.10576423117321963,
+   "situacao": "inoperante",
+   "horas_operacao": 2736,
+   "ultima_manutencao": "2026-01-12",
+   "localizacao": {
+    "lon": -64,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0136",
+   "tipo": "carroceria",
+   "tipo_nome": "Carroceria de pavimento",
+   "patrimonial": "RO-714118",
+   "unidade_responsavel": "UR-Ariquemes",
+   "municipio_codigo": 1100254,
+   "municipio": "Presidente Médici",
+   "disponibilidade": 0.8231966367449637,
+   "situacao": "operacional",
+   "horas_operacao": 12011,
+   "ultima_manutencao": "2026-11-14",
+   "localizacao": {
+    "lon": -66,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0137",
+   "tipo": "retroescavadeira",
+   "tipo_nome": "Retroescavadeira",
+   "patrimonial": "RO-111085",
+   "unidade_responsavel": "UR-Vilhena",
+   "municipio_codigo": 1101807,
+   "municipio": "Vale do Paraíso",
+   "disponibilidade": 0.8601416280036415,
+   "situacao": "operacional",
+   "horas_operacao": 3470,
+   "ultima_manutencao": "2025-02-05",
+   "localizacao": {
+    "lon": -67,
+    "lat": -12
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0138",
+   "tipo": "motoniveladora",
+   "tipo_nome": "Motoniveladora",
+   "patrimonial": "RO-205072",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1101708,
+   "municipio": "Urupá",
+   "disponibilidade": 0.08393281008719052,
+   "situacao": "inoperante",
+   "horas_operacao": 17093,
+   "ultima_manutencao": "2025-01-28",
+   "localizacao": {
+    "lon": -72,
+    "lat": -11
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0139",
+   "tipo": "caminhao_graneleiro",
+   "tipo_nome": "Caminhao graneleiro",
+   "patrimonial": "RO-455442",
+   "unidade_responsavel": "UR-Porto Velho",
+   "municipio_codigo": 1100023,
+   "municipio": "Ariquemes",
+   "disponibilidade": 0.9780547278230385,
+   "situacao": "operacional",
+   "horas_operacao": 12471,
+   "ultima_manutencao": "2024-01-01",
+   "localizacao": {
+    "lon": -70,
+    "lat": -10
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  },
+  {
+   "id": "MAQ-RO-0140",
+   "tipo": "viatura_apoio",
+   "tipo_nome": "Viatura de apoio operacional",
+   "patrimonial": "RO-436896",
+   "unidade_responsavel": "UR-Cacoal",
+   "municipio_codigo": 1101450,
+   "municipio": "Parecis",
+   "disponibilidade": 0.8538362628612236,
+   "situacao": "operacional",
+   "horas_operacao": 10181,
+   "ultima_manutencao": "2024-02-26",
+   "localizacao": {
+    "lon": -61,
+    "lat": -13
+   },
+   "simulacao_movimentacao": true,
+   "fonte": "SIMULADO"
+  }
+ ]
+}
