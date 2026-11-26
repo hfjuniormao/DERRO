@@ -7,12 +7,19 @@ ser publicado em **Vercel**, **GitHub Pages** ou qualquer servidor de arquivos.
 
 | Ambiente | Endereço | Como foi publicado |
 | --- | --- | --- |
-| GitHub (privado) | `https://github.com/hfjuniormao/central-infra-ro` | `git push` com PAT de escopo `repo` |
+| GitHub — demonstração (público) | `https://github.com/hfjuniormao/DERRO` | `git push` com PAT de escopo `repo` |
+| GitHub — espelho privado | `https://github.com/hfjuniormao/central-infra-ro` | `git push` com PAT de escopo `repo` |
 | Vercel (produção) | `https://mapa-obras-ro.vercel.app` | `scripts/publicar_vercel_api.py` (API REST, `dist/` enviado pronto) |
 
 Validação executada contra a URL publicada:
 `python3 tests/smoke_test.py https://mapa-obras-ro.vercel.app` → `RESULTADO: OK`
 (20/20 rotas, mapa com tiles, filtros, ficha de feição e layout mobile).
+
+> **Repositório de demonstração público**: o código, os dados (com origem
+> declarada: REAIS / SIMULADOS / INDISPONÍVEIS) e a documentação são públicos
+> em `DERRO`. Nenhum segredo é versionado — chaves e tokens ficam em variáveis
+> de ambiente e no backend. Se a estrutura do sistema deve permanecer restrita,
+> use o espelho privado `central-infra-ro`.
 
 > Ver `docs/LIMITACOES.md`, seção 10, para o que ainda depende de ação manual
 > (push dos workflows de CI com PAT de escopo `workflow` e vínculo do GitHub

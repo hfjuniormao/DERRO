@@ -97,11 +97,16 @@ uso indevido das informações exibidas.
 
 ## 10. Situação da publicação em nuvem
 
-- **GitHub** — o repositório privado `hfjuniormao/central-infra-ro` recebe o
-  código completo. Os dois arquivos de `.github/workflows/` estão em um commit
-  **pendente de push** porque o token usado tem escopo `repo` e não `workflow`
-  (o GitHub recusa pushes que criem arquivos de workflow). Para concluir:
-  `git push` com um PAT que tenha `repo` **e** `workflow`.
+- **GitHub** — o código está no repositório de demonstração **público**
+  `hfjuniormao/DERRO` (branch `main`) e no espelho privado
+  `hfjuniormao/central-infra-ro`. Sendo público, ficam visíveis o código-fonte,
+  a estrutura de pastas, a documentação e as bases com origem declarada; nenhum
+  token, chave ou credencial é versionado. Os dois arquivos
+  de `.github/workflows/` estão em um commit **pendente de push** porque o
+  token usado tem escopo `repo` e não `workflow` (o GitHub recusa pushes e a
+  API de conteúdo para caminhos `.github/workflows/`). Para concluir, use um
+  PAT com `repo` **e** `workflow`, ou cadastre os arquivos pela interface do
+  GitHub.
 - **Vercel** — a publicação em produção foi feita pela API REST
   (`scripts/publicar_vercel_api.py`), enviando o `dist/` já compilado como
   arquivos estáticos, **sem build no servidor**. A consequência prática é que
@@ -114,8 +119,10 @@ uso indevido das informações exibidas.
   integralmente.
 - **Associação GitHub → Vercel** — o GitHub App da Vercel instalado na conta
   não tem acesso ao repositório `central-infra-ro` (`repo_not_found` ao tentar
-  vincular). Enquanto isso, cada nova versão exige republicar pela API.
+  vincular). O mesmo vale para `DERRO` até a autorização ser refeita no
+  painel da Vercel. Enquanto isso, cada nova versão exige republicar pela
+  API.
 - **Nome do projeto na Vercel** — a publicação usa o projeto `mapa-obras-ro`,
   o único disponível na equipe do token. A URL pública é
   `https://mapa-obras-ro.vercel.app`; o nome do repositório no GitHub é
-  `central-infra-ro`.
+  `DERRO`.
